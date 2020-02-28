@@ -1,0 +1,4 @@
+[27-Feb-2020 12:15:58] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[27-Feb-2020 12:15:58] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[27-Feb-2020 12:15:58] : [WARNING] - OBTENIENDO FASE SORTEO
+[27-Feb-2020 12:15:58] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369

@@ -1,0 +1,154 @@
+TAREAS PREVIAS PRODUCCION
+
+1. Todos los centros deben tener el campo primer conexion a 'no'
+
+
+
+CALENDARIO
+A	CONSIDERACIONES PREVIAS	1
+B	ACTUACIONES A DESARROLLAR POR LOS CENTROS	1
+1	DEL MIÉRCOLES 26 DE FEBRERO AL MIÉRCOLES 4 DE MARZO, AMBOS INCLUSIVE
+NOTIFICACIÓN DE LA OFERTA INICIAL DE VACANTES	2
+2	LUNES 9 DE MARZO, A PARTIR DE LAS 12 H.
+PUBLICACIÓN DE LA OFERTA INICIAL DE VACANTES DE ESCOLARIZACIÓN	4
+3	DEL MIÉRCOLES 11 AL MARTES 17 DE MARZO, AMBOS INCLUSIVE
+PRESENTACIÓN DE SOLICITUDES	5
+4	MIÉRCOLES 18 DE MARZO
+REVISIÓN DEL REGISTRO Y VALIDACIÓN DE SOLICITUDES	10
+5	JUEVES 19 DE MARZO, A LAS 12,30 H.
+ADJUDICACIÓN ALEATORIA DE NÚMERO Y SORTEO PÚBLICO PARA DIRIMIR EMPATES	10
+6	HASTA EL LUNES 23 DE MARZO, INCLUSIVE
+BAREMACIÓN DE LAS SOLICITUDES	11
+7	MARTES 24 DE MARZO, A PARTIR DE LAS 12 H.
+PUBLICACIÓN DE LISTADOS DE SOLICITUDES BAREMADAS 	12
+
+
+HACIENDA
+
+En http://portalempleado.aragon.es/portal/page?_pageid=193,4047503&_dad=portal&_schema=PORTAL  están las plantillas para hacer las peticiones por lotes y el procedimiento a seguir si quereis solicitar el alta de algun funcionario a estos servicios.
+
+
+TAREAS PENDIENTES
+
+-Acceso anonimo, como ciudadano. generar clave de acceso ---  HECHO, FALTA REVISAR Q PUEDA ACCEDER PARA CONSULTAR/MODIFICAR DATOS
+-Ocultar validación para alumnos
+
+-Los botones del sorteo se ocultan al pulsar, en ese momento se genera la tabla de provisiionales y se oculta forever el boton de nueva solicitud
+-Los listados de soreto y baremo ordenados alfabeticamente
+-Añadir transporte en el listado de sorteo?
+
+-Listados pendientes
+
+Listados para centros
+
+Listados vacantes Igual que inspección pero en pdf
+
+Listado solicitudes, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ localidad/ centro de procedencia/ Trasporte baremo/ (Excel)
+
+Listado alumnos promocionados, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ Fecha de nacimiento/ Estado/(Excel)
+
+Fase 0
+
+Listados para inspección en excel
+
+Listados vacantes (Ya esta)
+
+Listado solicitudes, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ localidad/ centro de procedencia/ Trasporte baremo/
+
+Listado alumnos promocionados, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ Fecha de nacimiento/ Estado/
+
+listado alumnos duplicados, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ Fecha de nacimiento/ DNI padre-Madre/
+
+Listados para centros
+
+Listados vacantes Igual que inspección pero en pdf
+
+Listado solicitudes, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ localidad/ centro de procedencia/ Trasporte baremo/ (Excel)
+
+Listado alumnos promocionados, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ Fecha de nacimiento/ Estado/(Excel)
+
+
+-Para administrador, listado completo de solicitudes ordenado por ap1, ap2, nombre, fnac,dnitutor
+-Para admin listado por centros, provisional...
+
+
+-Revisar q aparezca el criterio de hermanos en el detalle del baremo, asi como la prioridad por transporte cambiando los 4 criterios  a 3
+c	aestañas de solicitud, sorteo y provisinales y definitivas solo activas en fecha 
+-Revisar el tema de la reserva de plaza, q se guarde tb el centro origen
+-Mostrar alumnos para cada centro con la cuenta de administracion y para cada provincia con las cuentas de cada una
+-Filtros ebo/tva en listados
+-reserva de plaza, revisar
+-añadir datos de Pilar de proivincias, etc...
+-Impedir guardar si no se han rellenado datos de tributantes cuando esta marcado renta_inferior
+-No grabar el usuario sino se ha grabado el alumno, usar commit.
+-Revisar domicilio laboral
+-Revisar q se ponga en verde al cargar
+-Una vez realizado el sorteo no pueden añadirse solicitudes, solo modificarse
+-En el listado de solicitudes baremadas incluir los datos de baremo de las opciones validadas
+
+-Si los datos de baremos total y validado son iguales debe aparecer en verde
+-Datos de centros de ed especial en los combos del formulario de solicitud
+-Recuprar, guardar y modificar datos tributarios
+-"EXPONE": en el caso de un niño de "nuevaescolarización", la casilla “centro de estudios actual” se mantiene en rojo. No escribimos centro pues no ha estado matriculado. (Esto posiblemente genera un error y por tanto sea la causa de que al final no nos la grabe, más adelante te lo indicamos). Debería ocurrir ,pensamos, que si el alumno como era el caso supuesto, tiene 3 años, y no viene de otro centro; al marcar el botón "nueva escolarización", la casilla del "centro de estudios actual " automáticamente se pusiera ok o verde y nos dejara avanzar.
+
+Sugerencia: poner la opción de "no ha estado escolarizado", entonces sí se activa el ok o verde. Pero lo hemos hecho a nuestra manera, quizá sea bueno sugerirlo en la lista de centro o desplegable.- En casos de alumnos que vienen de otro centro, todo bien, 
+SUGERENCIA: que ponga CEIP, CC, CEE...no solo el nombre del centro, y no solo ordinarios.
+
+En modalidad origen: sólo contempla combinada y EE. Pero hay aulas preferentes, y centro ordinario sin ser combinada, (es decir puede venir de un aula ordinaria de 3º de EI y el paso a primaria, cambiar modalidad a EE).
+
+-Añadir despues de la fase de pruebas la validación de los datos del formulario
+
+-crear pdf de inscripcion
+-Añadir botón para generar listados en pdf según loq haya en pantalla
+-Revisar el tema del nombre de usuario, ya que se pueden hacer las solicitudes q se quieran asi q habria q generar un codigo de acceso para cada una o algo asi
+		Posiblemente que se genere un pin para aacceder junto con el dni
+-Revisar el temna de codigo de solicitud
+-Tabla resumen solicitudes incluye el número en cada fase
+-Si una solicitud está validada, en cuanto a baremación, se marca autom. como BAREMADA. No ocurre lo contrario.
+-En el sorteo el centro introduce un número y se genera un número aleatorio por alumno o solicitud VALIDADA y un nuevo número, numero orden, por alumno en relación al número de sorteo
+-Despues del introducr el seorteo se pulsa un botón para generar el listado totalmente ordenado 
+-Revisar listados de centros de ed especial y el resto
+
+
+#########################################################################################################################################################################
+LISTADOS DE LISTADOS
+
+1. Listados nº aleatorio:  Apellidos y Nombre( Ordenados alfabeticamente) ------  Número Aleatorio Asignado
+
+TODAS, EBO Y TVA
+
+2. Listado de solicitudes baremadas: Apellidos y Nombre( Ordenados alfabeticamente) ------  Número Aleatorio Asignado ---- Puntuación Baremo(Total de puntos)
+
+TODAS, EBO Y TVA
+
+
+3. Listado admitidos Provisionalmente: Nº de orden ---  Número Aleatorio Asignado ---------Apellidos y Nombre ------  Criterios admisión(1,2,3) ---- Puntuación Baremo(Total de puntos)
+
+SEPARAR EBO Y TVA
+
+4. Listado no admitidos Provisionalmente:Nº de orden ---  Número Aleatorio Asignado ---------Apellidos y Nombre ------  Criterios admisión ---- Puntuación Baremo(Total de puntos)
+
+SEPARAR EBO Y TVA
+
+NO Admitidos son los q no son admitiods depsues del sorteo
+5. Listado excluidos Provisionalmente: Nº de orden ---  Número Aleatorio Asignado ---------Apellidos y Nombre ------  Criterios admisión ---- Puntuación Baremo(Total de puntos)
+
+SEPARAR EBO Y TVA
+
+Los exlcuidos son los irregulares y duplicados
+
+6. Listado Definitivos (Igual que provisionales) 
+
+SEPARAR EBO Y TVA
+#########################################################################################################################################################################
+
+
+1. FASE II
+
+Cuando finaliza el sorteo hay q actualizar las plazas vacantes de los centros, salvo las plazas que tienen reserva.
+Mostrar alumnos incluyendo los no admitidos/excluidos y sus centros de segunda opcion, tercera...
+Permitir a los administradores asignar al alumno a un centro siempre q queden plazas
+
+ASIGNACION AUTOMATICA
+Revisar los alumnos, primero los que tienen reserva de plazas
+Si pueden moverse a su primera opcion se liber ala plaza, actualizando vacantes en el centro original, sino se reasigna al centro inicial, sin actualizar vacantes, pues no se s contemplaba

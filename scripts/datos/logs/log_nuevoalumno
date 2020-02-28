@@ -1,0 +1,108 @@
+[27-Feb-2020 08:11:10] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 08:11:10] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 08:11:10] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 08:11:10] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 08:11:10] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[27-Feb-2020 08:11:30] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 08:11:30] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 08:11:30] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 08:11:30] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 08:11:30] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[27-Feb-2020 08:11:44] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 08:11:44] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 08:11:44] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 08:11:44] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 08:11:44] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[27-Feb-2020 08:12:53] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 08:12:53] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 08:12:53] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 08:12:53] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 08:12:53] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[27-Feb-2020 08:13:28] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 08:13:28] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 08:13:28] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 08:13:28] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 08:13:28] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[27-Feb-2020 08:13:30] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 08:13:30] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 08:13:30] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 08:13:30] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 08:13:30] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[27-Feb-2020 08:13:50] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 08:13:50] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 08:13:50] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 08:13:50] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 08:13:50] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[27-Feb-2020 11:45:33] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 11:45:33] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 11:45:33] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 11:45:33] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 11:45:33] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[27-Feb-2020 18:02:04] : [WARNING] - DATOS ALUMNO RECIBID
+[27-Feb-2020 18:02:04] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[27-Feb-2020 18:02:04] : [WARNING] - PIN ALUMNO RECIBIDO:
+[27-Feb-2020 18:02:04] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[27-Feb-2020 18:02:04] : [WARNING] - PIN ALUMNO RECIBIDO:0

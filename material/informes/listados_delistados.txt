@@ -1,0 +1,27 @@
+
+1. Listados nº aleatorio:  Apellidos y Nombre( Ordenados alfabeticamente) ------  Número Aleatorio Asignado
+
+TODAS, EBO Y TVA
+
+2. Listado de solicitudes baremadas: Apellidos y Nombre( Ordenados alfabeticamente) ------  Número Aleatorio Asignado ---- Puntuación Baremo(Total de puntos)
+
+TODAS, EBO Y TVA
+
+
+3. Listado admitidos Provisionalmente: Nº de orden ---  Número Aleatorio Asignado ---------Apellidos y Nombre ------  Criterios admisión ---- Puntuación Baremo(Total de puntos)
+
+SEPARAR EBO Y TVA
+
+
+4. Listado no admitidos Provisionalmente:Nº de orden ---  Número Aleatorio Asignado ---------Apellidos y Nombre ------  Criterios admisión ---- Puntuación Baremo(Total de puntos)
+
+SEPARAR EBO Y TVA
+
+
+5. Listado excluidos Provisionalmente: Nº de orden ---  Número Aleatorio Asignado ---------Apellidos y Nombre ------  Criterios admisión ---- Puntuación Baremo(Total de puntos)
+
+SEPARAR EBO Y TVA
+
+6. Listado Definitivos (Igual que provisionales) 
+
+SEPARAR EBO Y TVA

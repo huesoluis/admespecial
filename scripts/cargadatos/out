@@ -1,0 +1,433 @@
+1999-02-08Array
+(
+    [0] => 2019/2020
+    [1] => Huesca
+    [2] => T.V.A.
+    [3] => ADRIÁN
+    [4] => MARTÍNEZ PES
+    [5] => 2/8/1999
+    [6] => Instituto de Educación Secundaria
+    [7] => BIELLO ARAGÓN
+    [8] => 1
+    [9] => 22004891
+)
+1999-04-12Array
+(
+    [0] => 2019/2020
+    [1] => Huesca
+    [2] => T.V.A.
+    [3] => ANDREA
+    [4] => JUÁREZ RONDA
+    [5] => 4/12/1999
+    [6] => Instituto de Educación Secundaria
+    [7] => BIELLO ARAGÓN
+    [8] => 1
+    [9] => 22004891
+)
+1999-04-09Array
+(
+    [0] => 2019/2020
+    [1] => Huesca
+    [2] => T.V.A.
+    [3] => Jaime
+    [4] => Goyoaga Puzo
+    [5] => 4/9/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => SAN JORGE
+    [8] => 1
+    [9] => 22010001
+)
+1999-11-30Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => E.S.O. (E.E.)
+    [3] => KINE
+    [4] => FEDIOR THIONGANE
+    [5] => 11/30/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => MARÍA SORIANO
+    [8] => 1
+    [9] => 50009646
+)
+1999-04-17Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Adrian
+    [4] => García Navarro
+    [5] => 4/17/1999
+    [6] => Colegio de Educación Especial
+    [7] => RINCÓN DE GOYA
+    [8] => 1
+    [9] => 50011537
+)
+1999-07-16Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => AHLAM
+    [4] => MAAROUFI
+    [5] => 7/16/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => CEDES
+    [8] => 1
+    [9] => 50008630
+)
+1999-05-15Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => ALBERTO
+    [4] => Alcaina Fraca
+    [5] => 5/15/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => LOS PUEYOS
+    [8] => 1
+    [9] => 50009488
+)
+1999-05-25Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Alicia
+    [4] => Cimorra Sebastián
+    [5] => 5/25/1999
+    [6] => Colegio de Educación Especial
+    [7] => ANGEL RIVIÈRE
+    [8] => 1
+    [9] => 50017369
+)
+1999-04-24Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => CARLOS
+    [4] => URUÉN SUBÍAS
+    [5] => 4/24/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+1999-12-01Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => CLAUDIA
+    [4] => Consuegra Regalado
+    [5] => 12/1/1999
+    [6] => Colegio de Educación Especial
+    [7] => JEAN PIAGET
+    [8] => 1
+    [9] => 50018131
+)
+1999-07-15Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Daniel
+    [4] => Miñana Rincón
+    [5] => 7/15/1999
+    [6] => Colegio de Educación Especial
+    [7] => ANGEL RIVIÈRE
+    [8] => 1
+    [9] => 50017369
+)
+1999-11-19Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => David
+    [4] => Alepuz Hidalgo
+    [5] => 11/19/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => CEDES
+    [8] => 1
+    [9] => 50008630
+)
+1999-10-12Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Ignacio
+    [4] => Lacruz Albas
+    [5] => 10/12/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => LOS PUEYOS
+    [8] => 1
+    [9] => 50009488
+)
+1999-12-18Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Javier
+    [4] => García Roco
+    [5] => 12/18/1999
+    [6] => Colegio de Educación Especial
+    [7] => ANGEL RIVIÈRE
+    [8] => 1
+    [9] => 50017369
+)
+1999-04-14Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => JORGE
+    [4] => Bosque Gil
+    [5] => 4/14/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+1999-11-04Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => JORGE
+    [4] => CRESPO IBAÑEZ
+    [5] => 11/4/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => CEDES
+    [8] => 1
+    [9] => 50008630
+)
+1999-06-16Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => JORGE
+    [4] => PEREZ LOPEZ
+    [5] => 6/16/1999
+    [6] => Colegio de Educación Especial
+    [7] => ALBORADA
+    [8] => 1
+    [9] => 50010387
+)
+1999-04-26Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Joseba
+    [4] => Del Álamo Aldanondo
+    [5] => 4/26/1999
+    [6] => Colegio de Educación Especial
+    [7] => JEAN PIAGET
+    [8] => 1
+    [9] => 50018131
+)
+1999-08-23Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => LORENZO
+    [4] => BERNE GRACIA
+    [5] => 8/23/1999
+    [6] => Colegio de Educación Especial
+    [7] => RINCÓN DE GOYA
+    [8] => 1
+    [9] => 50011537
+)
+1999-03-27Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Luis
+    [4] => Bonastre Alvarez
+    [5] => 3/27/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+1999-11-10Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Manuel
+    [4] => Esteban Porras Gil
+    [5] => 11/10/1999
+    [6] => Colegio de Educación Especial
+    [7] => ALBORADA
+    [8] => 1
+    [9] => 50010387
+)
+1999-04-14Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Manuel
+    [4] => Mazarico Buil
+    [5] => 4/14/1999
+    [6] => Colegio de Educación Especial
+    [7] => ANGEL RIVIÈRE
+    [8] => 1
+    [9] => 50017369
+)
+1999-08-15Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => María Victoria
+    [4] => Sebastián Ruíz
+    [5] => 8/15/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+1999-11-14Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => MIGUEL ÁNGEL
+    [4] => Torrea Aranda
+    [5] => 11/14/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+1999-12-17Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Natalia
+    [4] => García Cardoso
+    [5] => 12/17/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+1999-06-05Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => NEREA
+    [4] => Gabarre Dual
+    [5] => 6/5/1999
+    [6] => Colegio de Educación Especial
+    [7] => ANGEL RIVIÈRE
+    [8] => 1
+    [9] => 50017369
+)
+1999-06-26Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Pablo Tomás
+    [4] => Morabito
+    [5] => 6/26/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+1999-03-23Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => RAQUEL
+    [4] => Marteles Sastrón
+    [5] => 3/23/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+1999-10-01Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => SAMUEL
+    [4] => Marín Marín
+    [5] => 10/1/1999
+    [6] => Colegio de Educación Especial
+    [7] => JEAN PIAGET
+    [8] => 1
+    [9] => 50018131
+)
+1999-11-04Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => SARA
+    [4] => Morales Peralta
+    [5] => 11/4/1999
+    [6] => Colegio de Educación Especial
+    [7] => ANGEL RIVIÈRE
+    [8] => 1
+    [9] => 50017369
+)
+1999-02-02Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => SARA
+    [4] => Vived Morales
+    [5] => 2/2/1999
+    [6] => Colegio de Educación Especial
+    [7] => RINCÓN DE GOYA
+    [8] => 1
+    [9] => 50011537
+)
+1999-11-13Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => UNAI
+    [4] => SANCHEZ ESTEBAN
+    [5] => 11/13/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => CEDES
+    [8] => 1
+    [9] => 50008630
+)
+1999-03-09Array
+(
+    [0] => 2019/2020
+    [1] => Zaragoza
+    [2] => T.V.A.
+    [3] => Verónica
+    [4] => Carbonell García
+    [5] => 3/9/1999
+    [6] => Centro Privado de Educación Especial
+    [7] => ATADES, CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+    [8] => 1
+    [9] => 50007674
+)
+
+fin carga matricula, total: 980
+filas omitidas: 33
+TOTAL:  1013
