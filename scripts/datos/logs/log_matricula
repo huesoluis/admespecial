@@ -39726,3 +39726,2554 @@
 						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
 						on t1.ta=t3.ta
 						
+[28-Feb-2020 07:55:13] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002338) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002338 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002338 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002511) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002511 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002511 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22004891) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22004891 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22004891 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22005157) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22005157 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22005157 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22010001) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22010001 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22010001 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44004148) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44004148 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44004148 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50000850) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50000850 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50000850 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006049) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006049 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006049 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006128) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006128 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006128 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007376) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007376 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007376 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007674) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007674 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007674 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008630) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008630 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008630 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008678) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008678 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008678 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008915) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008915 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008915 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009488) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009488 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009488 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009646) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009646 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009646 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50010387) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50010387 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50010387 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50011537) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50011537 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50011537 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50018131) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50018131 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50018131 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:00:15] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:21:31] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:22:34] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:22:40] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:24:13] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50004612 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50004612 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50004612 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[28-Feb-2020 08:24:18] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:30:49] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:35:42] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:35:59] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:37:35] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 08:37:45] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:12:48] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008630) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008630 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008630 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:12:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50008630 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50008630 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50008630 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[28-Feb-2020 09:15:48] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002338) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002338 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002338 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002511) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002511 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002511 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22004891) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22004891 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22004891 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22005157) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22005157 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22005157 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22010001) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22010001 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22010001 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44004148) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44004148 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44004148 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50000850) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50000850 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50000850 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006049) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006049 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006049 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006128) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006128 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006128 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007376) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007376 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007376 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007674) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007674 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007674 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008630) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008630 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008630 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008678) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008678 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008678 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008915) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008915 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008915 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009488) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009488 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009488 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009646) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009646 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009646 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50010387) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50010387 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50010387 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50011537) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50011537 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50011537 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50018131) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50018131 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50018131 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:06] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:22:40] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002338) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002338 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002338 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002511) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002511 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002511 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22004891) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22004891 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22004891 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22005157) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22005157 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22005157 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22010001) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22010001 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22010001 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44004148) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44004148 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44004148 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50000850) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50000850 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50000850 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006049) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006049 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006049 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006128) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006128 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006128 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007376) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007376 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007376 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007674) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007674 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007674 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008630) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008630 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008630 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008678) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008678 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008678 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008915) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008915 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008915 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009488) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009488 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009488 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009646) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009646 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009646 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50010387) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50010387 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50010387 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50011537) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50011537 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50011537 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50018131) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50018131 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50018131 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:30] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:25:40] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:26:32] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=22003835 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=22003835 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=22003835 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[28-Feb-2020 09:26:45] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002338) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002338 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002338 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002511) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002511 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002511 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22004891) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22004891 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22004891 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22005157) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22005157 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22005157 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22010001) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22010001 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22010001 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44004148) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44004148 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44004148 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50000850) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50000850 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50000850 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006049) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006049 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006049 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006128) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006128 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006128 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007376) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007376 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007376 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007674) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007674 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007674 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008630) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008630 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008630 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008678) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008678 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008678 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008915) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008915 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008915 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009488) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009488 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009488 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009646) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009646 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009646 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50010387) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50010387 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50010387 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50011537) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50011537 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50011537 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50018131) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50018131 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50018131 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:39:57] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:41:31] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:41:45] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:41:50] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:41:52] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50019408 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50019408 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50019408 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[28-Feb-2020 09:41:55] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:45:43] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=44003259 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=44003259 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=44003259 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[28-Feb-2020 09:45:46] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002338) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002338 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002338 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002511) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002511 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002511 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22004891) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22004891 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22004891 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22005157) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22005157 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22005157 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22010001) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22010001 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22010001 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44004148) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44004148 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44004148 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50000850) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50000850 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50000850 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006049) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006049 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006049 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006128) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006128 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006128 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007376) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007376 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007376 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007674) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007674 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007674 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008630) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008630 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008630 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008678) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008678 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008678 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008915) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008915 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008915 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009488) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009488 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009488 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009646) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009646 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009646 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50010387) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50010387 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50010387 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50011537) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50011537 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50011537 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50018131) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50018131 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50018131 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:46:08] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002338) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002338 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002338 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002511) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002511 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002511 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22004891) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22004891 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22004891 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22005157) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22005157 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22005157 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22010001) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22010001 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22010001 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44004148) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44004148 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44004148 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50000850) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50000850 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50000850 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006049) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006049 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006049 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006128) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006128 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006128 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007376) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007376 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007376 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007674) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007674 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007674 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008630) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008630 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008630 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008678) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008678 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008678 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008915) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008915 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008915 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009488) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009488 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009488 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009646) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009646 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009646 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50010387) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50010387 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50010387 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50011537) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50011537 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50011537 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50018131) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50018131 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50018131 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:48:26] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 09:57:50] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:01:54] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:01:58] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:02:00] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50019408 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50019408 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50019408 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002338) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002338 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002338 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22002511) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22002511 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22002511 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22003835) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22003835 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22003835 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22004891) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22004891 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22004891 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22005157) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22005157 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22005157 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=22010001) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=22010001 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=22010001 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44003259) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44003259 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44003259 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=44004148) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=44004148 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=44004148 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50000850) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50000850 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50000850 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50004612) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50004612 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50004612 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006049) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006049 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006049 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50006128) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50006128 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50006128 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007376) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007376 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007376 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50007674) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50007674 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50007674 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008630) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008630 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008630 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008678) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008678 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008678 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50008915) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50008915 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50008915 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009488) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009488 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009488 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50009646) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50009646 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50009646 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50010387) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50010387 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50010387 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50011537) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50011537 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50011537 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50018131) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50018131 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50018131 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[28-Feb-2020 10:06:17] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50019408) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50019408 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50019408 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						

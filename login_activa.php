@@ -3,12 +3,14 @@ session_start();
 $_SESSION=array();
 require_once $_SERVER['CONTEXT_DOCUMENT_ROOT']."/config/config_global.php";
 require_once DIR_CORE.'/Conectar.php';
+$hoy=date("Y/m/d");      
 $_SESSION['estado']='inicioinscrion';
 $_SESSION['rol'] = 'alumno';      
 $_SESSION['provincia']='aragon';
-
+if($hoy<DIA_INICIO_INSCRIPCION)
+	$_SESSION['dia_inicio_inscripcion']=0;
+else $_SESSION['dia_inicio_inscripcion']=1;
 //dia ultimo inscripcion alumno
-$hoy=date("Y/m/d");      
 if(DIA_MAX_SOL_ALUMNO==$hoy)
 	$_SESSION['fin_sol_alumno']='1';
 else $_SESSION['fin_sol_alumno']='0';

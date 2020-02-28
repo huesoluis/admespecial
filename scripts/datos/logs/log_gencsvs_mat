@@ -14,3 +14,7 @@
 [27-Feb-2020 09:44:55] : [WARNING] - SELECT * FROM matricula order by id_centro desc
 [27-Feb-2020 18:57:46] : [WARNING] - CONSULTA MATRICULAS CSV
 [27-Feb-2020 18:57:46] : [WARNING] - SELECT * FROM matricula where id_centro=50017369
+[28-Feb-2020 08:23:02] : [WARNING] - CONSULTA MATRICULAS CSV
+[28-Feb-2020 08:23:02] : [WARNING] - SELECT * FROM matricula where id_centro=50004612
+[28-Feb-2020 09:57:58] : [WARNING] - CONSULTA MATRICULAS CSV
+[28-Feb-2020 09:57:58] : [WARNING] - SELECT * FROM matricula where id_centro=50019408

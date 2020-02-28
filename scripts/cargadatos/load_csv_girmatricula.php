@@ -4,7 +4,7 @@ $basedatos=require_once '../../config/config_database.php';
 require_once 'config_scripts.php';
 require_once '../clases/ACCESO.php';
 
-$fdatos=DATA_SCRIPTS_DIR.'matricula6.csv';
+$fdatos=DATA_SCRIPTS_DIR.'matricula_definitiva.csv';
 
 $helper=new ACCESO($fdatos,$basedatos);
 

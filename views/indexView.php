@@ -17,7 +17,7 @@ include('includes/head.php');
 		<?php if($_SESSION['rol']=='admin') echo $this->showTablas($_SESSION['rol'],$_SESSION['id_centro'],'matricula','todas');?>
 		<?php if($_SESSION['provincia']!='aragon'){echo "sprovincial"; echo $this->showTablas($_SESSION['rol'],$_SESSION['id_centro'],'matricula',$_SESSION['provincia']);}?>
 		<?php 
-		if($_SESSION['rol']=='alumno')
+		if($_SESSION['rol']=='alumno' && $_SESSION['dia_inicio_inscripcion']==1)
 		{
 			if($_SESSION['fin_sol_alumno']=='1')
 				echo '<button class="btn btn-outline-info" id="inicio" type="button"><h2>ULTIMO DIA PARA INSCRIBIRSE!!!</h2></button><br>';
@@ -29,6 +29,21 @@ include('includes/head.php');
 				echo '<button class="btn btn-outline-info calumno" id="versolicitud" type="button">Ver solicitud</button>';
 			echo '<a href="'.URL_BASE.'"><button class="btn btn-outline-info" id="inicio" type="button">INICIO</button></a>';
 		}
+		if($_SESSION['rol']=='alumno' && $_SESSION['dia_inicio_inscripcion']==0)
+			{
+				echo '<row><div class="col-12"><p><h1></h1></p></div></row>';
+				echo '<row><p><h2></h2></p></row>';	
+				echo '<p><h2></h2></p>';	
+	echo '<main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>INCICIO DE INSCRIPCION</h1>
+        <p class="lead">DEL 11 al 16 de MARZO (inclusive) VIA WEB</p>
+        <p class="lead">EL DIA 17 MARZO EN LOS CENTROS</p>
+	<a href="'.URL_BASE.'"><button class="btn btn-outline-info" id="inicio" type="button">VOLVER</button></a>    </div>
+
+    </main><!-- /.container -->';
+			}
 		?>
 		</div>
 		<div class="row ">

@@ -412,3 +412,279 @@
 
 [27-Feb-2020 18:02:04] : [WARNING] - OBtENIENDO DATOS DE tributantes
 [27-Feb-2020 18:02:04] : [WARNING] - OBtENIENDO DATOS DE TRIBUTANTES: SELECT id_tributante,nombre,apellido1,apellido2,parentesco,dni FROM tributantes where id_alumno=8922
+[28-Feb-2020 07:53:08] : [WARNING] - OBtENIENDO DATOS DE admision
+[28-Feb-2020 07:53:08] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='admision' and id_alumno=8922
+[28-Feb-2020 07:53:08] : [WARNING] - HERMANOS: 
+[28-Feb-2020 07:53:08] : [WARNING] - Array
+(
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+)
+
+[28-Feb-2020 07:53:08] : [WARNING] - OBtENIENDO DATOS DE baremo
+[28-Feb-2020 07:53:08] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='baremo' and id_alumno=8922
+[28-Feb-2020 07:53:08] : [WARNING] - HERMANOS: 
+[28-Feb-2020 07:53:08] : [WARNING] - Array
+(
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+)
+
+[28-Feb-2020 07:53:08] : [WARNING] - OBtENIENDO DATOS DE tributantes
+[28-Feb-2020 07:53:08] : [WARNING] - OBtENIENDO DATOS DE TRIBUTANTES: SELECT id_tributante,nombre,apellido1,apellido2,parentesco,dni FROM tributantes where id_alumno=8922
+[28-Feb-2020 08:05:32] : [WARNING] - OBtENIENDO DATOS DE admision
+[28-Feb-2020 08:05:32] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='admision' and id_alumno=8922
+[28-Feb-2020 08:05:32] : [WARNING] - HERMANOS: 
+[28-Feb-2020 08:05:32] : [WARNING] - Array
+(
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+)
+
+[28-Feb-2020 08:05:32] : [WARNING] - OBtENIENDO DATOS DE baremo
+[28-Feb-2020 08:05:32] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='baremo' and id_alumno=8922
+[28-Feb-2020 08:05:32] : [WARNING] - HERMANOS: 
+[28-Feb-2020 08:05:32] : [WARNING] - Array
+(
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+)
+
+[28-Feb-2020 08:05:32] : [WARNING] - OBtENIENDO DATOS DE tributantes
+[28-Feb-2020 08:05:32] : [WARNING] - OBtENIENDO DATOS DE TRIBUTANTES: SELECT id_tributante,nombre,apellido1,apellido2,parentesco,dni FROM tributantes where id_alumno=8922
+[28-Feb-2020 08:11:15] : [WARNING] - OBtENIENDO DATOS DE admision
+[28-Feb-2020 08:11:15] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='admision' and id_alumno=8922
+[28-Feb-2020 08:11:15] : [WARNING] - HERMANOS: 
+[28-Feb-2020 08:11:15] : [WARNING] - Array
+(
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+)
+
+[28-Feb-2020 08:11:15] : [WARNING] - OBtENIENDO DATOS DE baremo
+[28-Feb-2020 08:11:15] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='baremo' and id_alumno=8922
+[28-Feb-2020 08:11:15] : [WARNING] - HERMANOS: 
+[28-Feb-2020 08:11:15] : [WARNING] - Array
+(
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+)
+
+[28-Feb-2020 08:11:15] : [WARNING] - OBtENIENDO DATOS DE tributantes
+[28-Feb-2020 08:11:15] : [WARNING] - OBtENIENDO DATOS DE TRIBUTANTES: SELECT id_tributante,nombre,apellido1,apellido2,parentesco,dni FROM tributantes where id_alumno=8922
+[28-Feb-2020 08:11:23] : [WARNING] - OBtENIENDO DATOS DE admision
+[28-Feb-2020 08:11:23] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='admision' and id_alumno=8922
+[28-Feb-2020 08:11:23] : [WARNING] - HERMANOS: 
+[28-Feb-2020 08:11:23] : [WARNING] - Array
+(
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+)
+
+[28-Feb-2020 08:11:23] : [WARNING] - OBtENIENDO DATOS DE baremo
+[28-Feb-2020 08:11:23] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='baremo' and id_alumno=8922
+[28-Feb-2020 08:11:23] : [WARNING] - HERMANOS: 
+[28-Feb-2020 08:11:23] : [WARNING] - Array
+(
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+)
+
+[28-Feb-2020 08:11:23] : [WARNING] - OBtENIENDO DATOS DE tributantes
+[28-Feb-2020 08:11:23] : [WARNING] - OBtENIENDO DATOS DE TRIBUTANTES: SELECT id_tributante,nombre,apellido1,apellido2,parentesco,dni FROM tributantes where id_alumno=8922
+[28-Feb-2020 09:12:58] : [WARNING] - OBtENIENDO DATOS DE admision
+[28-Feb-2020 09:12:58] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='admision' and id_alumno=0
+[28-Feb-2020 09:12:58] : [WARNING] - HERMANOS: 
+[28-Feb-2020 09:12:58] : [WARNING] - Array
+(
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+)
+
+[28-Feb-2020 09:12:58] : [WARNING] - OBtENIENDO DATOS DE baremo
+[28-Feb-2020 09:12:58] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='baremo' and id_alumno=0
+[28-Feb-2020 09:12:58] : [WARNING] - HERMANOS: 
+[28-Feb-2020 09:12:58] : [WARNING] - Array
+(
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+)
+
+[28-Feb-2020 09:12:58] : [WARNING] - OBtENIENDO DATOS DE tributantes
+[28-Feb-2020 09:12:58] : [WARNING] - OBtENIENDO DATOS DE TRIBUTANTES: SELECT id_tributante,nombre,apellido1,apellido2,parentesco,dni FROM tributantes where id_alumno=0
+[28-Feb-2020 10:02:02] : [WARNING] - OBtENIENDO DATOS DE admision
+[28-Feb-2020 10:02:02] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='admision' and id_alumno=0
+[28-Feb-2020 10:02:02] : [WARNING] - HERMANOS: 
+[28-Feb-2020 10:02:02] : [WARNING] - Array
+(
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+)
+
+[28-Feb-2020 10:02:02] : [WARNING] - OBtENIENDO DATOS DE baremo
+[28-Feb-2020 10:02:02] : [WARNING] - CONSULTA HERMANOS: SELECT id_registro,datos,fnacimiento,curso,nivel_educativo FROM hermanos where tipo='baremo' and id_alumno=0
+[28-Feb-2020 10:02:02] : [WARNING] - HERMANOS: 
+[28-Feb-2020 10:02:02] : [WARNING] - Array
+(
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+)
+
+[28-Feb-2020 10:02:02] : [WARNING] - OBtENIENDO DATOS DE tributantes
+[28-Feb-2020 10:02:02] : [WARNING] - OBtENIENDO DATOS DE TRIBUTANTES: SELECT id_tributante,nombre,apellido1,apellido2,parentesco,dni FROM tributantes where id_alumno=0

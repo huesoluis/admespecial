@@ -2,3 +2,27 @@
 [27-Feb-2020 12:15:58] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
 [27-Feb-2020 12:15:58] : [WARNING] - OBTENIENDO FASE SORTEO
 [27-Feb-2020 12:15:58] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[28-Feb-2020 08:24:13] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[28-Feb-2020 08:24:13] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50004612
+[28-Feb-2020 08:24:13] : [WARNING] - OBTENIENDO FASE SORTEO
+[28-Feb-2020 08:24:13] : [WARNING] - select fase_sorteo rom centros where id_centro=50004612
+[28-Feb-2020 09:12:57] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[28-Feb-2020 09:12:57] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50008630
+[28-Feb-2020 09:12:57] : [WARNING] - OBTENIENDO FASE SORTEO
+[28-Feb-2020 09:12:57] : [WARNING] - select fase_sorteo rom centros where id_centro=50008630
+[28-Feb-2020 09:26:32] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[28-Feb-2020 09:26:32] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=22003835
+[28-Feb-2020 09:26:32] : [WARNING] - OBTENIENDO FASE SORTEO
+[28-Feb-2020 09:26:32] : [WARNING] - select fase_sorteo rom centros where id_centro=22003835
+[28-Feb-2020 09:41:52] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[28-Feb-2020 09:41:52] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50019408
+[28-Feb-2020 09:41:52] : [WARNING] - OBTENIENDO FASE SORTEO
+[28-Feb-2020 09:41:52] : [WARNING] - select fase_sorteo rom centros where id_centro=50019408
+[28-Feb-2020 09:45:43] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[28-Feb-2020 09:45:43] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=44003259
+[28-Feb-2020 09:45:43] : [WARNING] - OBTENIENDO FASE SORTEO
+[28-Feb-2020 09:45:43] : [WARNING] - select fase_sorteo rom centros where id_centro=44003259
+[28-Feb-2020 10:02:00] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[28-Feb-2020 10:02:00] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50019408
+[28-Feb-2020 10:02:00] : [WARNING] - OBTENIENDO FASE SORTEO
+[28-Feb-2020 10:02:00] : [WARNING] - select fase_sorteo rom centros where id_centro=50019408

@@ -106,3 +106,69 @@
 [27-Feb-2020 18:02:04] : [WARNING] - PIN ALUMNO RECIBIDO:
 [27-Feb-2020 18:02:04] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
 [27-Feb-2020 18:02:04] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[28-Feb-2020 07:53:08] : [WARNING] - DATOS ALUMNO RECIBID
+[28-Feb-2020 07:53:08] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[28-Feb-2020 07:53:08] : [WARNING] - PIN ALUMNO RECIBIDO:
+[28-Feb-2020 07:53:08] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[28-Feb-2020 07:53:08] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[28-Feb-2020 08:05:32] : [WARNING] - DATOS ALUMNO RECIBID
+[28-Feb-2020 08:05:32] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[28-Feb-2020 08:05:32] : [WARNING] - PIN ALUMNO RECIBIDO:
+[28-Feb-2020 08:05:32] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[28-Feb-2020 08:05:32] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[28-Feb-2020 08:11:15] : [WARNING] - DATOS ALUMNO RECIBID
+[28-Feb-2020 08:11:15] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[28-Feb-2020 08:11:15] : [WARNING] - PIN ALUMNO RECIBIDO:
+[28-Feb-2020 08:11:15] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[28-Feb-2020 08:11:15] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[28-Feb-2020 08:11:23] : [WARNING] - DATOS ALUMNO RECIBID
+[28-Feb-2020 08:11:23] : [WARNING] - Array
+(
+    [codigo_centro] => 
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => alumno
+)
+
+[28-Feb-2020 08:11:23] : [WARNING] - PIN ALUMNO RECIBIDO:
+[28-Feb-2020 08:11:23] : [WARNING] - consulta nuevo alumno: select a.id_alumno from usuarios u, alumnos a where a.id_usuario=u.id_usuario and u.clave_original=
+[28-Feb-2020 08:11:23] : [WARNING] - PIN ALUMNO RECIBIDO:0
+[28-Feb-2020 09:12:58] : [WARNING] - DATOS ALUMNO RECIBID
+[28-Feb-2020 09:12:58] : [WARNING] - Array
+(
+    [codigo_centro] => 50008630
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => centro
+)
+
+[28-Feb-2020 10:02:02] : [WARNING] - DATOS ALUMNO RECIBID
+[28-Feb-2020 10:02:02] : [WARNING] - Array
+(
+    [codigo_centro] => 50019408
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => centro
+)
+

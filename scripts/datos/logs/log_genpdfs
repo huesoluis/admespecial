@@ -12880,3 +12880,1020 @@
     [8] => vacantestva
 )
 
+[28-Feb-2020 09:25:30] : [WARNING] - DATOS POST PARA PDFS
+[28-Feb-2020 09:25:30] : [WARNING] - Array
+(
+    [id_centro] => 50019408
+    [tipolistado] => pdf_mat
+    [rol] => ROL: centro
+)
+
+[28-Feb-2020 09:25:30] : [WARNING] - PREOBTENIENDO RESUMEN MATRICULA PDF
+[28-Feb-2020 09:25:30] : [WARNING] - Array
+(
+    [0] => Array
+        (
+            [nombre_centro] => PÍO XII
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 10
+            [vacantesebo] => 2
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [1] => Array
+        (
+            [nombre_centro] => PIRÁMIDE
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 6
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 3
+            [vacantestva] => 9
+        )
+
+    [2] => Array
+        (
+            [nombre_centro] => MONTECORONA
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 9
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 0
+            [vacantestva] => 12
+        )
+
+    [3] => Array
+        (
+            [nombre_centro] => BIELLO ARAGÓN
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 3
+            [vacantesebo] => 3
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 3
+            [vacantestva] => 9
+        )
+
+    [4] => Array
+        (
+            [nombre_centro] => LA ALEGRÍA
+            [gruposebo] => 11
+            [puestosebo] => 66
+            [plazasactualesebo] => 51
+            [vacantesebo] => 15
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 5
+            [vacantestva] => 7
+        )
+
+    [5] => Array
+        (
+            [nombre_centro] => SAN JORGE
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 32
+            [vacantesebo] => 4
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+    [6] => Array
+        (
+            [nombre_centro] => ARBOLEDA
+            [gruposebo] => 9
+            [puestosebo] => 54
+            [plazasactualesebo] => 30
+            [vacantesebo] => 24
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 14
+            [vacantestva] => 0
+        )
+
+    [7] => Array
+        (
+            [nombre_centro] => GLORIA FUERTES
+            [gruposebo] => 8
+            [puestosebo] => 48
+            [plazasactualesebo] => 46
+            [vacantesebo] => 2
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 14
+            [vacantestva] => 10
+        )
+
+    [8] => Array
+        (
+            [nombre_centro] => CAMPO DE BORJA
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 7
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [9] => Array
+        (
+            [nombre_centro] => MONCAYO
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 5
+            [vacantesebo] => 1
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [10] => Array
+        (
+            [nombre_centro] => JULIÁN SANZ IBÁÑEZ
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 6
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [11] => Array
+        (
+            [nombre_centro] => SAN BRAULIO
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 12
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [12] => Array
+        (
+            [nombre_centro] => LA PURÍSIMA PARA NIÑOS SORDOS
+            [gruposebo] => 16
+            [puestosebo] => 96
+            [plazasactualesebo] => 99
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [13] => Array
+        (
+            [nombre_centro] => ATADES CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+            [gruposebo] => 18
+            [puestosebo] => 108
+            [plazasactualesebo] => 96
+            [vacantesebo] => 12
+            [grupostva] => 3
+            [puestostva] => 36
+            [plazasactualestva] => 30
+            [vacantestva] => 6
+        )
+
+    [14] => Array
+        (
+            [nombre_centro] => CEDES
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 42
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 10
+            [vacantestva] => 2
+        )
+
+    [15] => Array
+        (
+            [nombre_centro] => RECTOR MAMÉS ESPERABÉ
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 15
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [16] => Array
+        (
+            [nombre_centro] => SAN GERMÁN
+            [gruposebo] => 4
+            [puestosebo] => 24
+            [plazasactualesebo] => 19
+            [vacantesebo] => 5
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [17] => Array
+        (
+            [nombre_centro] => LOS PUEYOS
+            [gruposebo] => 5
+            [puestosebo] => 30
+            [plazasactualesebo] => 15
+            [vacantesebo] => 15
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+    [18] => Array
+        (
+            [nombre_centro] => MARÍA SORIANO
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 26
+            [vacantesebo] => 10
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 3
+            [vacantestva] => 0
+        )
+
+    [19] => Array
+        (
+            [nombre_centro] => ALBORADA
+            [gruposebo] => 13
+            [puestosebo] => 78
+            [plazasactualesebo] => 76
+            [vacantesebo] => 2
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 23
+            [vacantestva] => 1
+        )
+
+    [20] => Array
+        (
+            [nombre_centro] => RINCÓN DE GOYA
+            [gruposebo] => 8
+            [puestosebo] => 48
+            [plazasactualesebo] => 49
+            [vacantesebo] => 0
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 20
+            [vacantestva] => 4
+        )
+
+    [21] => Array
+        (
+            [nombre_centro] => ANGEL RIVIÈRE
+            [gruposebo] => 7
+            [puestosebo] => 42
+            [plazasactualesebo] => 35
+            [vacantesebo] => 7
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 14
+            [vacantestva] => 0
+        )
+
+    [22] => Array
+        (
+            [nombre_centro] => JEAN PIAGET
+            [gruposebo] => 13
+            [puestosebo] => 78
+            [plazasactualesebo] => 77
+            [vacantesebo] => 1
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 12
+            [vacantestva] => 0
+        )
+
+    [23] => Array
+        (
+            [nombre_centro] => SEGEDA
+            [gruposebo] => 5
+            [puestosebo] => 30
+            [plazasactualesebo] => 23
+            [vacantesebo] => 7
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+)
+
+[28-Feb-2020 09:25:30] : [WARNING] - CAMPOs VACANTES PARA PDFS
+[28-Feb-2020 09:25:30] : [WARNING] - Array
+(
+    [0] => nombre_centro
+    [1] => gruposebo
+    [2] => puestosebo
+    [3] => plazasactualesebo
+    [4] => vacantesebo
+    [5] => grupostva
+    [6] => puestostva
+    [7] => plazasactualestva
+    [8] => vacantestva
+)
+
+[28-Feb-2020 09:39:57] : [WARNING] - DATOS POST PARA PDFS
+[28-Feb-2020 09:39:57] : [WARNING] - Array
+(
+    [id_centro] => 50019408
+    [tipolistado] => pdf_mat
+    [rol] => ROL: centro
+)
+
+[28-Feb-2020 09:39:57] : [WARNING] - PREOBTENIENDO RESUMEN MATRICULA PDF
+[28-Feb-2020 09:39:57] : [WARNING] - Array
+(
+    [0] => Array
+        (
+            [nombre_centro] => PÍO XII
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 10
+            [vacantesebo] => 2
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [1] => Array
+        (
+            [nombre_centro] => PIRÁMIDE
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 6
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 3
+            [vacantestva] => 9
+        )
+
+    [2] => Array
+        (
+            [nombre_centro] => MONTECORONA
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 9
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 0
+            [vacantestva] => 12
+        )
+
+    [3] => Array
+        (
+            [nombre_centro] => BIELLO ARAGÓN
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 3
+            [vacantesebo] => 3
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 3
+            [vacantestva] => 9
+        )
+
+    [4] => Array
+        (
+            [nombre_centro] => LA ALEGRÍA
+            [gruposebo] => 11
+            [puestosebo] => 66
+            [plazasactualesebo] => 51
+            [vacantesebo] => 15
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 5
+            [vacantestva] => 7
+        )
+
+    [5] => Array
+        (
+            [nombre_centro] => SAN JORGE
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 32
+            [vacantesebo] => 4
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+    [6] => Array
+        (
+            [nombre_centro] => ARBOLEDA
+            [gruposebo] => 9
+            [puestosebo] => 54
+            [plazasactualesebo] => 30
+            [vacantesebo] => 24
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 14
+            [vacantestva] => 0
+        )
+
+    [7] => Array
+        (
+            [nombre_centro] => GLORIA FUERTES
+            [gruposebo] => 8
+            [puestosebo] => 48
+            [plazasactualesebo] => 46
+            [vacantesebo] => 2
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 14
+            [vacantestva] => 10
+        )
+
+    [8] => Array
+        (
+            [nombre_centro] => CAMPO DE BORJA
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 7
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [9] => Array
+        (
+            [nombre_centro] => MONCAYO
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 5
+            [vacantesebo] => 1
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [10] => Array
+        (
+            [nombre_centro] => JULIÁN SANZ IBÁÑEZ
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 6
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [11] => Array
+        (
+            [nombre_centro] => SAN BRAULIO
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 12
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [12] => Array
+        (
+            [nombre_centro] => LA PURÍSIMA PARA NIÑOS SORDOS
+            [gruposebo] => 16
+            [puestosebo] => 96
+            [plazasactualesebo] => 99
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [13] => Array
+        (
+            [nombre_centro] => ATADES CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+            [gruposebo] => 18
+            [puestosebo] => 108
+            [plazasactualesebo] => 96
+            [vacantesebo] => 12
+            [grupostva] => 3
+            [puestostva] => 36
+            [plazasactualestva] => 30
+            [vacantestva] => 6
+        )
+
+    [14] => Array
+        (
+            [nombre_centro] => CEDES
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 42
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 10
+            [vacantestva] => 2
+        )
+
+    [15] => Array
+        (
+            [nombre_centro] => RECTOR MAMÉS ESPERABÉ
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 15
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [16] => Array
+        (
+            [nombre_centro] => SAN GERMÁN
+            [gruposebo] => 4
+            [puestosebo] => 24
+            [plazasactualesebo] => 19
+            [vacantesebo] => 5
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [17] => Array
+        (
+            [nombre_centro] => LOS PUEYOS
+            [gruposebo] => 5
+            [puestosebo] => 30
+            [plazasactualesebo] => 15
+            [vacantesebo] => 15
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+    [18] => Array
+        (
+            [nombre_centro] => MARÍA SORIANO
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 26
+            [vacantesebo] => 10
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 3
+            [vacantestva] => 0
+        )
+
+    [19] => Array
+        (
+            [nombre_centro] => ALBORADA
+            [gruposebo] => 13
+            [puestosebo] => 78
+            [plazasactualesebo] => 76
+            [vacantesebo] => 2
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 23
+            [vacantestva] => 1
+        )
+
+    [20] => Array
+        (
+            [nombre_centro] => RINCÓN DE GOYA
+            [gruposebo] => 8
+            [puestosebo] => 48
+            [plazasactualesebo] => 49
+            [vacantesebo] => 0
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 20
+            [vacantestva] => 4
+        )
+
+    [21] => Array
+        (
+            [nombre_centro] => ANGEL RIVIÈRE
+            [gruposebo] => 7
+            [puestosebo] => 42
+            [plazasactualesebo] => 35
+            [vacantesebo] => 7
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 14
+            [vacantestva] => 0
+        )
+
+    [22] => Array
+        (
+            [nombre_centro] => JEAN PIAGET
+            [gruposebo] => 13
+            [puestosebo] => 78
+            [plazasactualesebo] => 77
+            [vacantesebo] => 1
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 12
+            [vacantestva] => 0
+        )
+
+    [23] => Array
+        (
+            [nombre_centro] => SEGEDA
+            [gruposebo] => 5
+            [puestosebo] => 30
+            [plazasactualesebo] => 23
+            [vacantesebo] => 7
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+)
+
+[28-Feb-2020 09:39:57] : [WARNING] - CAMPOs VACANTES PARA PDFS
+[28-Feb-2020 09:39:57] : [WARNING] - Array
+(
+    [0] => nombre_centro
+    [1] => gruposebo
+    [2] => puestosebo
+    [3] => plazasactualesebo
+    [4] => vacantesebo
+    [5] => grupostva
+    [6] => puestostva
+    [7] => plazasactualestva
+    [8] => vacantestva
+)
+
+[28-Feb-2020 09:48:26] : [WARNING] - DATOS POST PARA PDFS
+[28-Feb-2020 09:48:26] : [WARNING] - Array
+(
+    [id_centro] => 50019408
+    [tipolistado] => pdf_mat
+    [rol] => ROL: centro
+)
+
+[28-Feb-2020 09:48:26] : [WARNING] - PREOBTENIENDO RESUMEN MATRICULA PDF
+[28-Feb-2020 09:48:26] : [WARNING] - Array
+(
+    [0] => Array
+        (
+            [nombre_centro] => PÍO XII
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 10
+            [vacantesebo] => 2
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [1] => Array
+        (
+            [nombre_centro] => PIRÁMIDE
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 6
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 3
+            [vacantestva] => 9
+        )
+
+    [2] => Array
+        (
+            [nombre_centro] => MONTECORONA
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 9
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 0
+            [vacantestva] => 12
+        )
+
+    [3] => Array
+        (
+            [nombre_centro] => BIELLO ARAGÓN
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 3
+            [vacantesebo] => 3
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 3
+            [vacantestva] => 9
+        )
+
+    [4] => Array
+        (
+            [nombre_centro] => LA ALEGRÍA
+            [gruposebo] => 11
+            [puestosebo] => 66
+            [plazasactualesebo] => 51
+            [vacantesebo] => 15
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 5
+            [vacantestva] => 7
+        )
+
+    [5] => Array
+        (
+            [nombre_centro] => SAN JORGE
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 32
+            [vacantesebo] => 4
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+    [6] => Array
+        (
+            [nombre_centro] => ARBOLEDA
+            [gruposebo] => 9
+            [puestosebo] => 54
+            [plazasactualesebo] => 30
+            [vacantesebo] => 24
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 14
+            [vacantestva] => 0
+        )
+
+    [7] => Array
+        (
+            [nombre_centro] => GLORIA FUERTES
+            [gruposebo] => 8
+            [puestosebo] => 48
+            [plazasactualesebo] => 46
+            [vacantesebo] => 2
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 14
+            [vacantestva] => 10
+        )
+
+    [8] => Array
+        (
+            [nombre_centro] => CAMPO DE BORJA
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 7
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [9] => Array
+        (
+            [nombre_centro] => MONCAYO
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 5
+            [vacantesebo] => 1
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [10] => Array
+        (
+            [nombre_centro] => JULIÁN SANZ IBÁÑEZ
+            [gruposebo] => 1
+            [puestosebo] => 6
+            [plazasactualesebo] => 6
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [11] => Array
+        (
+            [nombre_centro] => SAN BRAULIO
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 12
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [12] => Array
+        (
+            [nombre_centro] => LA PURÍSIMA PARA NIÑOS SORDOS
+            [gruposebo] => 16
+            [puestosebo] => 96
+            [plazasactualesebo] => 99
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [13] => Array
+        (
+            [nombre_centro] => ATADES CENTRO DE EDUCACIÓN ESPECIAL SAN MARTÍN DE PORRES
+            [gruposebo] => 18
+            [puestosebo] => 108
+            [plazasactualesebo] => 96
+            [vacantesebo] => 12
+            [grupostva] => 3
+            [puestostva] => 36
+            [plazasactualestva] => 30
+            [vacantestva] => 6
+        )
+
+    [14] => Array
+        (
+            [nombre_centro] => CEDES
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 42
+            [vacantesebo] => 0
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 10
+            [vacantestva] => 2
+        )
+
+    [15] => Array
+        (
+            [nombre_centro] => RECTOR MAMÉS ESPERABÉ
+            [gruposebo] => 2
+            [puestosebo] => 12
+            [plazasactualesebo] => 15
+            [vacantesebo] => 0
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [16] => Array
+        (
+            [nombre_centro] => SAN GERMÁN
+            [gruposebo] => 4
+            [puestosebo] => 24
+            [plazasactualesebo] => 19
+            [vacantesebo] => 5
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 0
+            [vacantestva] => 0
+        )
+
+    [17] => Array
+        (
+            [nombre_centro] => LOS PUEYOS
+            [gruposebo] => 5
+            [puestosebo] => 30
+            [plazasactualesebo] => 15
+            [vacantesebo] => 15
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+    [18] => Array
+        (
+            [nombre_centro] => MARÍA SORIANO
+            [gruposebo] => 6
+            [puestosebo] => 36
+            [plazasactualesebo] => 26
+            [vacantesebo] => 10
+            [grupostva] => 0
+            [puestostva] => 0
+            [plazasactualestva] => 3
+            [vacantestva] => 0
+        )
+
+    [19] => Array
+        (
+            [nombre_centro] => ALBORADA
+            [gruposebo] => 13
+            [puestosebo] => 78
+            [plazasactualesebo] => 76
+            [vacantesebo] => 2
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 23
+            [vacantestva] => 1
+        )
+
+    [20] => Array
+        (
+            [nombre_centro] => RINCÓN DE GOYA
+            [gruposebo] => 8
+            [puestosebo] => 48
+            [plazasactualesebo] => 49
+            [vacantesebo] => 0
+            [grupostva] => 2
+            [puestostva] => 24
+            [plazasactualestva] => 20
+            [vacantestva] => 4
+        )
+
+    [21] => Array
+        (
+            [nombre_centro] => ANGEL RIVIÈRE
+            [gruposebo] => 7
+            [puestosebo] => 42
+            [plazasactualesebo] => 35
+            [vacantesebo] => 7
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 14
+            [vacantestva] => 0
+        )
+
+    [22] => Array
+        (
+            [nombre_centro] => JEAN PIAGET
+            [gruposebo] => 13
+            [puestosebo] => 78
+            [plazasactualesebo] => 77
+            [vacantesebo] => 1
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 12
+            [vacantestva] => 0
+        )
+
+    [23] => Array
+        (
+            [nombre_centro] => SEGEDA
+            [gruposebo] => 5
+            [puestosebo] => 30
+            [plazasactualesebo] => 23
+            [vacantesebo] => 7
+            [grupostva] => 1
+            [puestostva] => 12
+            [plazasactualestva] => 8
+            [vacantestva] => 4
+        )
+
+)
+
+[28-Feb-2020 09:48:26] : [WARNING] - CAMPOs VACANTES PARA PDFS
+[28-Feb-2020 09:48:26] : [WARNING] - Array
+(
+    [0] => nombre_centro
+    [1] => gruposebo
+    [2] => puestosebo
+    [3] => plazasactualesebo
+    [4] => vacantesebo
+    [5] => grupostva
+    [6] => puestostva
+    [7] => plazasactualestva
+    [8] => vacantestva
+)
+
