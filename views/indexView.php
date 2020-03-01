@@ -38,8 +38,9 @@ include('includes/head.php');
 
       <div class="starter-template">
         <h1>INCICIO DE INSCRIPCION</h1>
-        <p class="lead">DEL 11 al 16 de MARZO (inclusive) VIA WEB</p>
-        <p class="lead">EL DIA 17 MARZO EN LOS CENTROS</p>
+        <p class="lead">INSCRIPCIONES VIA WEB: DEL 11 al 16 de MARZO (inclusive)</p>
+        <p class="lead">INSCRIPCIONES EN LOS CENTROS: DEL 11 al 17 de MARZO (inclusive)</p>
+        <p class="lead"><i>En cualquier caso los impresos hay que entregarlos en el centro firmados</i></p>
 	<a href="'.URL_BASE.'"><button class="btn btn-outline-info" id="inicio" type="button">VOLVER</button></a>    </div>
 
     </main><!-- /.container -->';

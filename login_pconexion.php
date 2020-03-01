@@ -20,12 +20,12 @@ $err=$nombre_usuario_err = $clave1_err =$clave2_err= "";
   {
    	$clave1 = trim($_POST["clave1"]);
   }
-  if(strlen($_POST['clave2']<=4))
-	{
-            $clave2_err = 'Clave debe tener al menso 5 caracteres';
+  if(strlen($_POST['clave2'])<=4)
+  {
+  	$clave2_err = 'Clave debe tener al menos 5 caracteres';
   } 
-	else
-	{
+  else
+  {
    	$clave2 = trim($_POST["clave2"]);
   }
   // tamaño clave mayor de 4

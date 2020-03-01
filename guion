@@ -4,6 +4,8 @@ TAREAS PREVIAS PRODUCCION
 
 
 
+
+
 CALENDARIO
 A	CONSIDERACIONES PREVIAS	1
 B	ACTUACIONES A DESARROLLAR POR LOS CENTROS	1
@@ -30,59 +32,13 @@ En http://portalempleado.aragon.es/portal/page?_pageid=193,4047503&_dad=portal&_
 
 TAREAS PENDIENTES
 
--Acceso anonimo, como ciudadano. generar clave de acceso ---  HECHO, FALTA REVISAR Q PUEDA ACCEDER PARA CONSULTAR/MODIFICAR DATOS
--Ocultar validación para alumnos
+
+-Añadir funcionalidad de sorteo realizado en listados de solicitudes
+$sorteo_realizado=$tcentro->sorteoRealizado($id_centro);//comprobar si se ha asignado el numero asignado
 
 -Los botones del sorteo se ocultan al pulsar, en ese momento se genera la tabla de provisiionales y se oculta forever el boton de nueva solicitud
--Los listados de soreto y baremo ordenados alfabeticamente
--Añadir transporte en el listado de sorteo?
 
--Listados pendientes
-
-Listados para centros
-
-Listados vacantes Igual que inspección pero en pdf
-
-Listado solicitudes, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ localidad/ centro de procedencia/ Trasporte baremo/ (Excel)
-
-Listado alumnos promocionados, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ Fecha de nacimiento/ Estado/(Excel)
-
-Fase 0
-
-Listados para inspección en excel
-
-Listados vacantes (Ya esta)
-
-Listado solicitudes, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ localidad/ centro de procedencia/ Trasporte baremo/
-
-Listado alumnos promocionados, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ Fecha de nacimiento/ Estado/
-
-listado alumnos duplicados, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ Fecha de nacimiento/ DNI padre-Madre/
-
-Listados para centros
-
-Listados vacantes Igual que inspección pero en pdf
-
-Listado solicitudes, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ localidad/ centro de procedencia/ Trasporte baremo/ (Excel)
-
-Listado alumnos promocionados, Campos: Centro/ Apellidos/ Nombre/ Enseñanza/ Fecha de nacimiento/ Estado/(Excel)
-
-
--Para administrador, listado completo de solicitudes ordenado por ap1, ap2, nombre, fnac,dnitutor
--Para admin listado por centros, provisional...
-
-
--Revisar q aparezca el criterio de hermanos en el detalle del baremo, asi como la prioridad por transporte cambiando los 4 criterios  a 3
-c	aestañas de solicitud, sorteo y provisinales y definitivas solo activas en fecha 
--Revisar el tema de la reserva de plaza, q se guarde tb el centro origen
--Mostrar alumnos para cada centro con la cuenta de administracion y para cada provincia con las cuentas de cada una
--Filtros ebo/tva en listados
--reserva de plaza, revisar
--añadir datos de Pilar de proivincias, etc...
 -Impedir guardar si no se han rellenado datos de tributantes cuando esta marcado renta_inferior
--No grabar el usuario sino se ha grabado el alumno, usar commit.
--Revisar domicilio laboral
--Revisar q se ponga en verde al cargar
 -Una vez realizado el sorteo no pueden añadirse solicitudes, solo modificarse
 -En el listado de solicitudes baremadas incluir los datos de baremo de las opciones validadas
 

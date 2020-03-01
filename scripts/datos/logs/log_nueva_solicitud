@@ -1362,3 +1362,15 @@
     [nombre_centro_destino] => SEGEDA
 )
 
+[28-Feb-2020 13:05:53] : [WARNING] - NUEVA SOLICITUD, nombre centro: RINCÓN DE GOYA
+[28-Feb-2020 13:05:53] : [WARNING] - Array
+(
+    [nombre_centro_destino] => RINCÓN DE GOYA
+)
+
+[28-Feb-2020 13:23:32] : [WARNING] - NUEVA SOLICITUD, nombre centro: RINCÓN DE GOYA
+[28-Feb-2020 13:23:32] : [WARNING] - Array
+(
+    [nombre_centro_destino] => RINCÓN DE GOYA
+)
+

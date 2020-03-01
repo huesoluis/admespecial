@@ -182,7 +182,7 @@ input[type=text], input[type=password] {
             <h2>Acceso inscripciones estudios de Educación Especial</h2>
 	<button type="button" class="btn btn-primary" id="csolicitud">Crear solicitud</button>
 
-	<?php if(IPREMOTA==$_SERVER['REMOTE_ADDR'] || $hoy>=DIA_INICIO) { ?>
+	<?php if(IPREMOTA==$_SERVER['HTTP_X_FORWARDED_FOR']) { ?>
             <p>Introduce tu nombre de  usuario y contraseña</p>
             <form action="" method="post">
                 <div class="form-group <?php echo (!empty($nombre_usuario_err)) ? 'has-error' : ''; ?>">
@@ -201,8 +201,8 @@ input[type=text], input[type=password] {
             </form>
 		<?php } else
 			echo "<h1>PAGINA EN MANTENIMIENTO O CONVOCATORIA NO INICIADA</h1>";
-			//echo $_SERVER[REMOTE_ADDR];
-			//echo ":".IPREMOTA;
+			echo $_SERVER[REMOTE_ADDR];
+			echo ":".IPREMOTA;
 			?>
         </div>    
 
