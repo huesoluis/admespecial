@@ -13,6 +13,7 @@
                             <li class="nav-item active msuperior dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Documentación</a>
 				 <div class="dropdown-menu">
+				 <a class="dropdown-item" href="documentacion/a4modsol.pdf" id="doca4" target="_blank">Modelo solicitud autorrellenable (anexoIV)</a>
 				 <a class="dropdown-item" href="documentacion/instrucciones_proceso.pdf" id="docinst" target="_blank">Instrucciones generales</a>
 				 </div>
                             </li>
