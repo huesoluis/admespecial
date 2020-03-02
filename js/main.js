@@ -769,7 +769,7 @@ $('body').on('click', '.send', function(e){
 			{ 
 				$.alert({
 					title: 'SOLICITUD GUARDADA CORRECTAMENTE, PARA MODIFICAR USA EL PIN: '+data,
-					content: 'DE ACUERDO'
+					content: ''
 					});
 			//añadimos boton para imprimir
 			var bimp= $('<a href="imprimirsolicitud.php?id='+vid+'"><input class="btn btn-primary imprimirsolicitud" style="background-color:brown;padding-left:20px" type="button" value="Vista Previa Impresion Documento"/></a>');
@@ -795,6 +795,8 @@ $('body').on('click', '.send', function(e){
 					title: 'SOLICITUD ACTUALIZADA',
 					content: 'OK'
 					});
+				var bimp= $('<a href="imprimirsolicitud.php?id='+vid+'"><input class="btn btn-primary imprimirsolicitud" style="background-color:brown;padding-left:20px" type="button" value="Vista Previa Impresion Documento"/></a>');
+				$('.send').after(bimp);
 				return;
 				}
 				$.alert({
@@ -955,9 +957,10 @@ $.ajax({
 	{
 		if(vrol.indexOf("alumno")!=-1)
 		{
-			$("#l_matricula").after(data);
+			if($("#tablasolicitud").length!=0)
+				$("#tablasolicitud").toggle();
+			else	$("#l_matricula").after(data);
 		}
-	console.log(data);
       	$("#"+idappend).after(data);
 	if(vestado=='3') {disableForm($('#fsolicitud'+vid)) ;}
       	},
