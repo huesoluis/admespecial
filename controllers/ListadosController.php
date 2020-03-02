@@ -172,7 +172,7 @@ class ListadosController extends ControladorBase{
 
   public function showFiltrosCheck()
 	{
-			$botones=$this->check('TODAS');
+			$botones="<div id='filtroscheck'>".$this->check('TODAS');
 			$botones.="<br>FASE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
 			$botones.=$this->check('Borrador','fase');
 			$botones.=$this->check('Validada','fase');
@@ -181,7 +181,7 @@ class ListadosController extends ControladorBase{
 			$botones.=$this->check('Irregular','estado');
 			$botones.=$this->check('Duplicada','estado');
 			$botones.=$this->check('Apta','estado');
-			return $botones;
+			return $botones."</div>";
 	}
   public function showBotones()
 	{

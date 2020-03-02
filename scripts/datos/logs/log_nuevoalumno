@@ -190,3 +190,21 @@
     [rol] => centro
 )
 
+[02-Mar-2020 09:19:22] : [WARNING] - DATOS ALUMNO RECIBID
+[02-Mar-2020 09:19:22] : [WARNING] - Array
+(
+    [codigo_centro] => 50011537
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => centro
+)
+
+[02-Mar-2020 09:21:35] : [WARNING] - DATOS ALUMNO RECIBID
+[02-Mar-2020 09:21:35] : [WARNING] - Array
+(
+    [codigo_centro] => 50011537
+    [id_alumno] => 0
+    [modo] => nueva
+    [rol] => centro
+)
+

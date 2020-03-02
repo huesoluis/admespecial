@@ -134,3 +134,25 @@
 [28-Feb-2020 17:17:23] : [WARNING] - SELECT a.id_alumno,a.nombre,a.apellido1,a.fase_solicitud,a.estado_solicitud,a.transporte,a.nordensorteo,a.tipoestudios,nasignado, b.puntos_validados FROM alumnos a left join baremo b on b.id_alumno=a.id_alumno where id_centro_destino=22010001 order by a.tipoestudios, a.apellido1,a.nombre,a.transporte desc,b.puntos_validados desc,b.hermanos_centro desc,b.proximidad_domicilio,b.renta_inferior,b.discapacidad,b.tipo_familia,a.nordensorteo asc,a.nasignado desc
 [28-Feb-2020 17:17:28] : [WARNING] - CONSULTA LISTADO SOLICITUDES: SELECT distinct(id_centro) from centros_grupos
 [28-Feb-2020 17:47:14] : [WARNING] - CONSULTA LISTADO SOLICITUDES: SELECT distinct(id_centro) from centros_grupos
+[02-Mar-2020 09:13:11] : [WARNING] - CONSULTA LISTADO SOLICITUDES: SELECT distinct(id_centro) from centros_grupos
+[02-Mar-2020 09:19:19] : [WARNING] - OBTENIENDO SOLICITUDES COMO PROVINCIAcentro
+[02-Mar-2020 09:19:19] : [WARNING] - OBTENIENDO SOLICITUDES, FASE: 0
+[02-Mar-2020 09:19:19] : [WARNING] - OBTENIENDO SOLICITUDES NUMERO DE SORTEO NO ASIGNADO
+[02-Mar-2020 09:19:19] : [WARNING] - CONSULTA SOLICITUDES SORTEO
+[02-Mar-2020 09:19:19] : [WARNING] - SELECT a.id_alumno,a.nombre,a.apellido1,a.fase_solicitud,a.estado_solicitud,a.transporte,a.nordensorteo,a.tipoestudios,nasignado, b.puntos_validados FROM alumnos a left join baremo b on b.id_alumno=a.id_alumno where id_centro_destino=50011537 order by a.tipoestudios, a.apellido1,a.nombre,a.transporte desc,b.puntos_validados desc,b.hermanos_centro desc,b.proximidad_domicilio,b.renta_inferior,b.discapacidad,b.tipo_familia,a.nordensorteo asc,a.nasignado desc
+[02-Mar-2020 09:21:13] : [WARNING] - OBTENIENDO SOLICITUDES COMO PROVINCIAcentro
+[02-Mar-2020 09:21:13] : [WARNING] - OBTENIENDO SOLICITUDES, FASE: 0
+[02-Mar-2020 09:21:13] : [WARNING] - OBTENIENDO SOLICITUDES NUMERO DE SORTEO NO ASIGNADO
+[02-Mar-2020 09:21:13] : [WARNING] - CONSULTA SOLICITUDES SORTEO
+[02-Mar-2020 09:21:13] : [WARNING] - SELECT a.id_alumno,a.nombre,a.apellido1,a.fase_solicitud,a.estado_solicitud,a.transporte,a.nordensorteo,a.tipoestudios,nasignado, b.puntos_validados FROM alumnos a left join baremo b on b.id_alumno=a.id_alumno where id_centro_destino=50011537 order by a.tipoestudios, a.apellido1,a.nombre,a.transporte desc,b.puntos_validados desc,b.hermanos_centro desc,b.proximidad_domicilio,b.renta_inferior,b.discapacidad,b.tipo_familia,a.nordensorteo asc,a.nasignado desc
+[02-Mar-2020 09:21:22] : [WARNING] - OBTENIENDO SOLICITUDES COMO PROVINCIAcentro
+[02-Mar-2020 09:21:22] : [WARNING] - OBTENIENDO SOLICITUDES, FASE: 0
+[02-Mar-2020 09:21:22] : [WARNING] - OBTENIENDO SOLICITUDES NUMERO DE SORTEO NO ASIGNADO
+[02-Mar-2020 09:21:22] : [WARNING] - CONSULTA SOLICITUDES SORTEO
+[02-Mar-2020 09:21:22] : [WARNING] - SELECT a.id_alumno,a.nombre,a.apellido1,a.fase_solicitud,a.estado_solicitud,a.transporte,a.nordensorteo,a.tipoestudios,nasignado, b.puntos_validados FROM alumnos a left join baremo b on b.id_alumno=a.id_alumno where id_centro_destino=50011537 order by a.tipoestudios, a.apellido1,a.nombre,a.transporte desc,b.puntos_validados desc,b.hermanos_centro desc,b.proximidad_domicilio,b.renta_inferior,b.discapacidad,b.tipo_familia,a.nordensorteo asc,a.nasignado desc
+[02-Mar-2020 09:21:32] : [WARNING] - OBTENIENDO SOLICITUDES COMO PROVINCIAcentro
+[02-Mar-2020 09:21:32] : [WARNING] - OBTENIENDO SOLICITUDES, FASE: 0
+[02-Mar-2020 09:21:32] : [WARNING] - OBTENIENDO SOLICITUDES NUMERO DE SORTEO NO ASIGNADO
+[02-Mar-2020 09:21:32] : [WARNING] - CONSULTA SOLICITUDES SORTEO
+[02-Mar-2020 09:21:32] : [WARNING] - SELECT a.id_alumno,a.nombre,a.apellido1,a.fase_solicitud,a.estado_solicitud,a.transporte,a.nordensorteo,a.tipoestudios,nasignado, b.puntos_validados FROM alumnos a left join baremo b on b.id_alumno=a.id_alumno where id_centro_destino=50011537 order by a.tipoestudios, a.apellido1,a.nombre,a.transporte desc,b.puntos_validados desc,b.hermanos_centro desc,b.proximidad_domicilio,b.renta_inferior,b.discapacidad,b.tipo_familia,a.nordensorteo asc,a.nasignado desc
+[02-Mar-2020 09:58:54] : [WARNING] - CONSULTA LISTADO SOLICITUDES: SELECT distinct(id_centro) from centros_grupos

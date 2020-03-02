@@ -141,3 +141,13 @@
 [28-Feb-2020 17:48:42] : [WARNING] - SELECT * FROM matricula where id_centro=22002338
 [28-Feb-2020 17:48:51] : [WARNING] - SELECT * FROM matricula where id_centro=22002511
 [28-Feb-2020 17:49:17] : [WARNING] - SELECT * FROM matricula where id_centro=22003835
+[02-Mar-2020 08:50:34] : [WARNING] - SELECT * FROM matricula where id_centro=44003259
+[02-Mar-2020 09:13:02] : [WARNING] - SELECT * FROM matricula where id_centro=50008630
+[02-Mar-2020 09:14:36] : [WARNING] - SELECT * FROM matricula where id_centro=50008630
+[02-Mar-2020 09:19:13] : [WARNING] - SELECT * FROM matricula where id_centro=50011537
+[02-Mar-2020 09:20:35] : [WARNING] - SELECT * FROM matricula where id_centro=50010387
+[02-Mar-2020 09:21:16] : [WARNING] - SELECT * FROM matricula where id_centro=50010387
+[02-Mar-2020 09:21:25] : [WARNING] - SELECT * FROM matricula where id_centro=50011537
+[02-Mar-2020 09:51:10] : [WARNING] - SELECT * FROM matricula where id_centro=50010387
+[02-Mar-2020 09:51:11] : [WARNING] - SELECT * FROM matricula where id_centro=50010387
+[02-Mar-2020 09:51:15] : [WARNING] - SELECT * FROM matricula where id_centro=50010387

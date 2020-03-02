@@ -1374,3 +1374,15 @@
     [nombre_centro_destino] => RINCÓN DE GOYA
 )
 
+[02-Mar-2020 09:19:22] : [WARNING] - NUEVA SOLICITUD, nombre centro: RINCÓN DE GOYA
+[02-Mar-2020 09:19:22] : [WARNING] - Array
+(
+    [nombre_centro_destino] => RINCÓN DE GOYA
+)
+
+[02-Mar-2020 09:21:35] : [WARNING] - NUEVA SOLICITUD, nombre centro: RINCÓN DE GOYA
+[02-Mar-2020 09:21:35] : [WARNING] - Array
+(
+    [nombre_centro_destino] => RINCÓN DE GOYA
+)
+

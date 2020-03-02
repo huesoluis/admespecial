@@ -13,7 +13,6 @@ require_once DIR_BASE.'models/Solicitud.php';
 $log_listado_solicitudes=new logWriter('log_listado_solicitudes',DIR_LOGS);
 ########################################################################################
 
-
 //VARIABLES
 $modo='presorteo';
 $id_centro=$_POST['id_centro'];
@@ -28,6 +27,7 @@ if(strpos($_POST['rol'],'sp')!==FALSE) $provincia=substr($_POST['rol'],2);
 
 $tsolicitud=new Solicitud($conexion);
 $tcentro->setNombre();
+$nombre_centro=$tcentro->getNombre();
 $nsolicitudes=$tcentro->getNumSolicitudes($id_centro);
 
 //variable para controlar si se actualiza el sorteo en la tabla de centros
@@ -37,7 +37,7 @@ $hoy = date("Y/m/d");
 
 $form_nuevasolicitud='<div class="input-group-append" id="cab_fnuevasolicitud"><button class="btn btn-outline-info" id="nuevasolicitud" type="button">Nueva solicitud</button></div>';
 
-$log_listado_solicitudes->warning("OBTENIENDO SOLICITUDES COMO PROVINCIA".$_POST['rol']);
+$log_listado_solicitudes->warning("OBTENIENDO SOLICITUDES CON ROL: ".$_POST['rol']);
 //Para el caso de acceso del administrador o servicios provinciales
 if($_POST['rol']=='admin' or strpos($_POST['rol'],'sp')!==FALSE)
 {
@@ -66,7 +66,16 @@ if($_POST['rol']=='admin' or strpos($_POST['rol'],'sp')!==FALSE)
 }
 else
 {
-	$form_sorteo='<div class="input-group mb-3">
+	$form_sorteo_parcial='<div class="input-group mb-3">
+		<div class="input-group-append">
+		</div>
+		<div class="input-group-append">
+			<button class="btn btn-success" type="submit" id="boton_realizar_sorteo">Realizar sorteo</button>
+		</div>
+		<input type="text" id="num_sorteo" name="num_sorteo" value="" placeholder="NUMERO OBTENIDO" disabled>
+		<input type="hidden" id="num_solicitudes" name="num_solicitudes" value="'.$nsolicitudes.'" placeholder="NUMERO OBTENIDO" disabled>
+	</div>';
+	$form_sorteo_completo='<div class="input-group mb-3">
 		<div class="input-group-append">
 			<button class="btn btn-success" type="submit" id="boton_asignar_numero">Asignar numero</button>
 		</div>
@@ -91,8 +100,8 @@ else
 			$modo='sorteo';
 			$nsorteo=$_POST['nsorteo'];
 			//Actualizamos el numero de sorteo para el centro
-			if($tcentro->setSorteo($nsorteo,$id_centro)) 
-				$fase_sorteo=2;
+                        if($tcentro->setSorteo($nsorteo,$id_centro)==0) {print("ERROR SORTEO"); exit();}
+			
 			$dsorteo=$tcentro->getVacantes($id_centro);
 			$vacantes_ebo=$dsorteo[0]->vacantes;
 			$vacantes_tva=$dsorteo[1]->vacantes;
@@ -100,6 +109,8 @@ else
 			if($list->actualizaSolicitudesSorteo($id_centro,$nsorteo,$nsolicitudes,$vacantes_ebo,$vacantes_tva)==0) print("NO HAY VACANTES");
 			else
 			{
+				$tcentro->setFaseSorteo(2);
+                                $fase_sorteo=2;
 			//Si hemos llegado al dia d elas provisionales o posterior, generamos la tabla de soliciutdes para los listados provisionales
 				if($estado_convocatoria==2)
 				{
@@ -137,6 +148,9 @@ else
 	$tablaresumen=$tcentro->getResumen($_POST['rol'],'alumnos');
 	$nombre_centro=$tcentro->getNombre();
 
+	$log_listado_solicitudes->warning("OBTENIENDO SOLICITUDES, SORTEO: FASE SORTEO: ".$fase_sorteo." DIA SORTEO: ".$dia_sorteo);
+	  #Mostramos formulario para el sorteo si es el dia correcto
+        $fase_sorteo=$tcentro->getFaseSorteo();
 	#Mostramos formulario para el sorteo si es el dia correcto
 	if($fase_sorteo==0)
 	{
@@ -148,6 +162,16 @@ else
 			print($filtro_solicitudes);
 			print($list->showSolicitudes($solicitudes,$_POST['rol']));
 	}
+	elseif($fase_sorteo==1)
+        {
+                        if($_POST['id_centro']>='1') print($list->showTablaResumenSolicitudes($tablaresumen,$nombre_centro,$id_centro));
+                        if($dia_sorteo==1) print($form_sorteo_parcial); //mostramos formulario sorteo solo si no se ha hecho ya
+                        print($form_nuevasolicitud);
+                        print('<br>');
+                        print($list->showFiltrosCheck());
+                        print($filtro_solicitudes);
+                        print($list->showSolicitudes($solicitudes,$_POST['rol']));
+        }
 	else
 	{
 			print($list->showSolicitudes($solicitudes,$_POST['rol']));

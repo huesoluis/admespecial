@@ -9,7 +9,7 @@ $( ":input" ).select(function() {
 //METODOS DE CALCULO DE SORTEO
 
 $('body').on('click', '#boton_asignar_numero', function(e){
-var vrol=$('#rol').text();
+var vrol=$('#rol').attr("value");
 var vestado_convocatoria=$('#estado_convocatoria').text();
 var vidcentro=$('#id_centro').text();
 	$.ajax({
@@ -17,9 +17,13 @@ var vidcentro=$('#id_centro').text();
 	  data: {asignar:'1',id_centro:vidcentro,rol:vrol,estado_convocatoria:vestado_convocatoria},
 	  url:'../scripts/ajax/listados_solicitudes.php',
 	      success: function(data) {
-				$("#sol_table").remove();
-				$("#filtrosol").after(data);
-				$("#num_sorteo").prop("disabled",false);
+			        $("#tresumen"+vidcentro).remove();
+                                $("#filtroscheck").remove();
+                                $("#nuevasolicitud").remove();
+                                $("#form_sorteo").remove();
+                                $("#sol_table").remove();
+                                $("#filtrosol").after(data);
+                                $("#num_sorteo").prop("disabled",false);
 		},error: function (request, status, error) {
         alert(error);
     }
@@ -30,7 +34,7 @@ var vidcentro=$('#id_centro').text();
 
 $('body').on('click', '#boton_realizar_sorteo', function(e){
 var vid=$(this).attr("id");
-var vrol=$('#rol').text();
+var vrol=$('#rol').attr("value");
 var vidcentro=$('#id_centro').text();
 var vsolicitudes=$(this).attr("data-solicitudes");
 var vnum_sorteo=$('#num_sorteo').val();
@@ -763,10 +767,10 @@ $('body').on('click', '.send', function(e){
 			{
 			if(vrol.indexOf('alumno')!=-1)
 			{ 
-							$.alert({
-								title: 'SOLICITUD GUARDADA CORRECTAMENTE, PARA MODIFICAR USA EL PIN: '+data,
-								content: 'DE ACUERDO'
-								});
+				$.alert({
+					title: 'SOLICITUD GUARDADA CORRECTAMENTE, PARA MODIFICAR USA EL PIN: '+data,
+					content: 'DE ACUERDO'
+					});
 			//añadimos boton para imprimir
 			var bimp= $('<a href="imprimirsolicitud.php?id='+vid+'"><input class="btn btn-primary imprimirsolicitud" style="background-color:brown;padding-left:20px" type="button" value="Vista Previa Impresion Documento"/></a>');
 			$('.send').text("ACTUALIZAR SOLICITUD");
@@ -1003,7 +1007,6 @@ if($('#fnuevasolicitud').length)
 //LISTADO SOLICITUDES BRUTO
 $(".show_solicitudes").click(function () {  
   var vid_centro=$('#id_centro').text();
-  var vrol=$('#rol').text();
   var vrol=$('#rol').attr("value");
 var vestado_convocatoria=$('#estado_convocatoria').attr("value");
 $.ajax({
@@ -1033,7 +1036,7 @@ $.ajax({
 $(".lgenerales").click(function () {  
   var vpdf='1';
   var vid_centro=$('#id_centro').text();
-  var vrol=$('#rol').text();
+  var vrol=$('#rol').attr("value");
   var vtipo=$(this).attr("data-tipo");
   var vsubtipo=$(this).attr("data-subtipo");
 $.ajax({
@@ -1062,7 +1065,7 @@ $.ajax({
 $(".lprovisionales").click(function () {  
   var vpdf='1';
   var vid_centro=$('#id_centro').text();
-  var vrol=$('#rol').text();
+  var vrol=$('#rol').attr("value");
   var vtipo=$(this).attr("data-tipo");
   var vsubtipo=$(this).attr("data-subtipo");
   var vestado_convocatoria=$('#estado_convocatoria').text();
@@ -1092,7 +1095,7 @@ $.ajax({
 $(".ldefinitivos").click(function () {  
   var vpdf='1';
   var vid_centro=$('#id_centro').text();
-  var vrol=$('#rol').text();
+  var vrol=$('#rol').attr("value");
   var vtipo=$(this).attr("data-tipo");
   var vsubtipo=$(this).attr("data-subtipo");
 $.ajax({
@@ -1511,7 +1514,7 @@ $('body').on('change', 'input[type=checkbox][id*=oponenautorizar]', function(e){
 
 $('body').on('click', '.exportcsv', function(e)
 {
-var vrol=$('#rol').text();
+  var vrol=$('#rol').attr("value");
 var vid=$(this).attr("id");
 var vidcentro=$('#id_centro').text();
 var vsubtipo=$(this).attr("data-subtipo");
@@ -1532,7 +1535,7 @@ var vsubtipo=$(this).attr("data-subtipo");
 
 $('body').on('click', '.exportpdf', function(e)
 {
-	var vrol=$('#rol').text();
+  	var vrol=$('#rol').attr("value");
 	var vid=$(this).attr("id");
 	var vidcentro=$('#id_centro').text();
   var vsubtipo=$(this).attr("data-subtipo");
