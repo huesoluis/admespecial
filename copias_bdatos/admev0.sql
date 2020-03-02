@@ -18,6 +18,7 @@
 --
 -- Table structure for table `alumnos`
 --
+USE preadmespecial;
 
 DROP TABLE IF EXISTS `alumnos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

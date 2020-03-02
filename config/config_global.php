@@ -14,7 +14,7 @@ define("DIR_LOGS",DIR_BASE.'/scripts/datos/logs/');
 
 define("DATA_SCRIPTS_DIR",'/scripts/datos_entrada/');
 
-define("URL_BASE",'http://admespecial.aragon.es/');
+define("URL_BASE",'http://preadmespecial.aragon.es/');
 
 define("DIA_INICIO",'2020/02/28');
 define("DIA_INICIO_INSCRIPCION",'2020/03/11');
