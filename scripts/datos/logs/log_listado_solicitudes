@@ -1,0 +1,18 @@
+[02-Mar-2020 11:09:33] : [WARNING] - OBTENIENDO SOLICITUDES CON ROL: centro
+[02-Mar-2020 11:09:33] : [WARNING] - OBTENIENDO SOLICITUDES, FASE: 0
+[02-Mar-2020 11:09:33] : [WARNING] - OBTENIENDO SOLICITUDES NUMERO DE SORTEO NO ASIGNADO
+[02-Mar-2020 11:09:33] : [WARNING] - CONSULTA SOLICITUDES SORTEO
+[02-Mar-2020 11:09:33] : [WARNING] - SELECT a.id_alumno,a.nombre,a.apellido1,a.fase_solicitud,a.estado_solicitud,a.transporte,a.nordensorteo,a.tipoestudios,nasignado, b.puntos_validados FROM alumnos a left join baremo b on b.id_alumno=a.id_alumno where id_centro_destino=50017369 order by a.tipoestudios, a.apellido1,a.nombre,a.transporte desc,b.puntos_validados desc,b.hermanos_centro desc,b.proximidad_domicilio,b.renta_inferior,b.discapacidad,b.tipo_familia,a.nordensorteo asc,a.nasignado desc
+[02-Mar-2020 11:09:33] : [WARNING] - OBTENIENDO SOLICITUDES, SORTEO: FASE SORTEO: 0 DIA SORTEO: 1
+[02-Mar-2020 11:10:47] : [WARNING] - OBTENIENDO SOLICITUDES CON ROL: centro
+[02-Mar-2020 11:10:47] : [WARNING] - OBTENIENDO SOLICITUDES, FASE: 0
+[02-Mar-2020 11:10:47] : [WARNING] - OBTENIENDO SOLICITUDES NUMERO DE SORTEO NO ASIGNADO
+[02-Mar-2020 11:10:47] : [WARNING] - CONSULTA SOLICITUDES SORTEO
+[02-Mar-2020 11:10:47] : [WARNING] - SELECT a.id_alumno,a.nombre,a.apellido1,a.fase_solicitud,a.estado_solicitud,a.transporte,a.nordensorteo,a.tipoestudios,nasignado, b.puntos_validados FROM alumnos a left join baremo b on b.id_alumno=a.id_alumno where id_centro_destino=50017369 order by a.tipoestudios, a.apellido1,a.nombre,a.transporte desc,b.puntos_validados desc,b.hermanos_centro desc,b.proximidad_domicilio,b.renta_inferior,b.discapacidad,b.tipo_familia,a.nordensorteo asc,a.nasignado desc
+[02-Mar-2020 11:10:47] : [WARNING] - OBTENIENDO SOLICITUDES, SORTEO: FASE SORTEO: 0 DIA SORTEO: 1
+[02-Mar-2020 11:12:21] : [WARNING] - OBTENIENDO SOLICITUDES CON ROL: centro
+[02-Mar-2020 11:12:21] : [WARNING] - OBTENIENDO SOLICITUDES, FASE: 1
+[02-Mar-2020 11:12:21] : [WARNING] - OBTENIENDO SOLICITUDES NUMERO DE SORTEO ASIGNADO
+[02-Mar-2020 11:12:21] : [WARNING] - CONSULTA SOLICITUDES SORTEO
+[02-Mar-2020 11:12:21] : [WARNING] - SELECT a.id_alumno,a.nombre,a.apellido1,a.apellido2,a.tipoestudios,a.fase_solicitud,a.estado_solicitud,a.transporte,a.nordensorteo,a.nasignado as nasignado, b.puntos_validados,b.proximidad_domicilio,b.tutores_centro,b.renta_inferior,b.discapacidad,b.tipo_familia,b.hermanos_centro FROM alumnos a left join baremo b on b.id_alumno=a.id_alumno where id_centro_destino=50017369 and fase_solicitud!='borrador' order by a.tipoestudios, a.apellido1,a.nombre, a.transporte desc,b.puntos_validados desc,a.nordensorteo asc,a.nasignado desc
+[02-Mar-2020 11:12:21] : [WARNING] - OBTENIENDO SOLICITUDES, SORTEO: FASE SORTEO: 1 DIA SORTEO: 1

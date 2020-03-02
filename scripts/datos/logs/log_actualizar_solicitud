@@ -1,0 +1,770 @@
+[02-Mar-2020 12:17:55] : [WARNING] - POST REICBIDO ACTUALIZANDO:
+[02-Mar-2020 12:17:55] : [WARNING] - apellido1=riap1&apellido2=&nombre=nri1&dni_alumno=&fnac=2007-01-30&nacionalidad=&datos_tutor1=ntriv1&dni_tutor1=11122233c&datos_tutor2=&dni_tutor2=&calle_dfamiliar=&num_dfamiliar=&piso_dfamiliar=&cp_dfamiliar=&loc_dfamiliar=&tel_dfamiliar1=&tel_dfamiliar2=&id_centro_estudios_origen=&loc_centro_origen=&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=0&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=0&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=0&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE&loc_centro_destino=&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral=&baremo_calle_dllimitrofe=&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0
+[02-Mar-2020 12:17:55] : [WARNING] - select id_centro from centros  where nombre_centro='ANGEL RIVIÈRE'
+[02-Mar-2020 12:17:55] : [WARNING] - VALOR CENTRO ORIGEN:
+[02-Mar-2020 12:17:55] : [WARNING] - 
+[02-Mar-2020 12:17:55] : [WARNING] - VALOR CENTRO ORIGEN DESPUES:
+[02-Mar-2020 12:17:55] : [WARNING] - 
+[02-Mar-2020 12:17:55] : [WARNING] - select id_centro from centros  where nombre_centro=''
+[02-Mar-2020 12:18:12] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:18:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:18:12] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:18:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:18:12] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:18:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:18:12] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:18:12] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:30:22] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:30:22] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:30:22] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:30:22] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:30:22] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:30:22] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:30:22] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:30:22] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:30:24] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:30:24] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:30:24] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:30:24] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:30:24] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:30:24] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:30:24] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:30:24] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:30:25] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:30:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:30:25] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:30:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:30:25] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:30:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:30:25] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:30:25] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:30:25] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:30:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:30:25] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:30:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:30:25] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:30:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:30:25] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:30:25] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:31:01] : [WARNING] - POST REICBIDO ACTUALIZANDO:
+[02-Mar-2020 12:31:01] : [WARNING] - apellido1=apriv2&apellido2=&nombre=nriv2&dni_alumno=&fnac=2007-12-31&nacionalidad=&datos_tutor1=ntriv2&dni_tutor1=11122233r&datos_tutor2=&dni_tutor2=&calle_dfamiliar=&num_dfamiliar=&piso_dfamiliar=&cp_dfamiliar=&loc_dfamiliar=&tel_dfamiliar1=&tel_dfamiliar2=&id_centro_estudios_origen=&loc_centro_origen=&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=0&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=0&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=0&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE&loc_centro_destino=&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral=&baremo_calle_dllimitrofe=&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0
+[02-Mar-2020 12:31:01] : [WARNING] - select id_centro from centros  where nombre_centro='ANGEL RIVIÈRE'
+[02-Mar-2020 12:31:01] : [WARNING] - VALOR CENTRO ORIGEN:
+[02-Mar-2020 12:31:01] : [WARNING] - 
+[02-Mar-2020 12:31:01] : [WARNING] - VALOR CENTRO ORIGEN DESPUES:
+[02-Mar-2020 12:31:01] : [WARNING] - 
+[02-Mar-2020 12:31:01] : [WARNING] - select id_centro from centros  where nombre_centro=''
+[02-Mar-2020 12:31:17] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:31:17] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:31:17] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:31:17] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:31:17] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:31:17] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:31:17] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:31:17] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:31:18] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:31:18] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:31:18] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:31:18] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:31:18] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:31:18] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:31:18] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:31:18] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:36:48] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:36:48] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:36:48] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:36:48] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:36:48] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:36:48] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:36:48] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:36:48] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:38:12] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:38:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:38:12] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:38:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:38:12] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:38:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:38:12] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:38:12] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:39:15] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:39:15] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:39:15] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:39:15] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:39:15] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:39:15] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:39:15] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:39:15] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:39:45] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:39:45] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:39:45] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:39:45] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:39:45] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:39:45] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:39:45] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:39:45] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:40:38] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:40:38] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:40:38] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:40:38] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:40:38] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:40:38] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:40:38] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:40:38] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:41:50] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:41:50] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:41:50] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:41:50] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:41:50] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:41:50] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:41:50] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:41:50] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:41:52] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:41:52] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:41:52] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:41:52] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:41:52] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:41:52] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:41:52] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:41:52] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:42:18] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:42:18] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:42:18] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:42:18] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:42:18] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:42:18] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:42:18] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:42:18] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:42:19] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:42:19] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:42:19] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:42:19] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:42:19] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:42:19] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:42:19] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:42:19] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:42:19] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:42:19] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:42:19] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:42:19] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:42:19] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:42:19] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:42:19] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:42:19] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:44:09] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:44:09] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:44:09] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:44:09] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:44:09] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:44:09] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:44:09] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:44:09] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:44:12] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:44:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:44:12] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:44:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:44:12] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:44:12] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:44:12] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:44:12] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:44:14] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:44:14] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:44:14] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:44:14] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:44:14] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:44:14] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:44:14] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:44:14] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:44:41] : [WARNING] - POST REICBIDO ACTUALIZANDO:
+[02-Mar-2020 12:44:41] : [WARNING] - apellido1=apriv21&apellido2=nodata&nombre=nriv2&dni_alumno=nodata&fnac=2007-12-31&nacionalidad=nodata&datos_tutor1=ntriv2&dni_tutor1=11122233r&datos_tutor2=nodata&dni_tutor2=nodata&calle_dfamiliar=nodata&num_dfamiliar=nda&piso_dfamiliar=nodata&cp_dfamiliar=nodata&loc_dfamiliar=nodata&tel_dfamiliar1=0&tel_dfamiliar2=0&id_centro_estudios_origen=0&loc_centro_origen=nodata&reserva8924=0&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE*&loc_centro_destino=nodata&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral8924=&baremo_calle_dllimitrofe8924=&baremo_proximidad_domicilio8924=sindomicilio&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_discapacidad8924=no&baremo_tipo_familia8924=no&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0
+[02-Mar-2020 12:44:41] : [WARNING] - select id_centro from centros  where nombre_centro='ANGEL RIVIÈRE*'
+[02-Mar-2020 12:44:41] : [WARNING] - VALOR CENTRO ORIGEN:
+[02-Mar-2020 12:44:41] : [WARNING] - 0
+[02-Mar-2020 12:44:41] : [WARNING] - VALOR CENTRO ORIGEN DESPUES:
+[02-Mar-2020 12:44:41] : [WARNING] - 0
+[02-Mar-2020 12:44:41] : [WARNING] - select id_centro from centros  where nombre_centro='0'
+[02-Mar-2020 12:44:41] : [WARNING] - ACTUALIZAR FORMULARIO RECIBIDO - DATOS BRUTOS:
+[02-Mar-2020 12:44:41] : [WARNING] - apellido1=apriv21&apellido2=nodata&nombre=nriv2&dni_alumno=nodata&fnac=2007-12-31&nacionalidad=nodata&datos_tutor1=ntriv2&dni_tutor1=11122233r&datos_tutor2=nodata&dni_tutor2=nodata&calle_dfamiliar=nodata&num_dfamiliar=nda&piso_dfamiliar=nodata&cp_dfamiliar=nodata&loc_dfamiliar=nodata&tel_dfamiliar1=0&tel_dfamiliar2=0&id_centro_estudios_origen=0&loc_centro_origen=nodata&reserva8924=0&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE*&loc_centro_destino=nodata&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral8924=&baremo_calle_dllimitrofe8924=&baremo_proximidad_domicilio8924=sindomicilio&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_discapacidad8924=no&baremo_tipo_familia8924=no&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0&baremo_ptstotal=
+[02-Mar-2020 12:44:41] : [WARNING] - ACTUALIZAR FORMULARIO RECIBIDO: ACTUALIZAR SOLICITUD
+[02-Mar-2020 12:44:41] : [WARNING] - {"apellido1":"apriv21","apellido2":"nodata","nombre":"nriv2","dni_alumno":"nodata","fnac":"2007-12-31","nacionalidad":"nodata","datos_tutor1":"ntriv2","dni_tutor1":"11122233r","datos_tutor2":"nodata","dni_tutor2":"nodata","calle_dfamiliar":"nodata","num_dfamiliar":"nda","piso_dfamiliar":"nodata","cp_dfamiliar":"nodata","loc_dfamiliar":"nodata","tel_dfamiliar1":"0","tel_dfamiliar2":"0","id_centro_estudios_origen":0,"loc_centro_origen":"nodata","reserva8924":"0","modalidad_origen":"nodata","hermanos_datos_admision1":"","hermanos_id_registro_admision1":"","hermanos_fnacimiento_admision1":"","hermanos_curso_admision1":"","hermanos_nivel_educativo_admision1":"","hermanos_datos_admision2":"","hermanos_id_registro_admision2":"","hermanos_fnacimiento_admision2":"","hermanos_curso_admision2":"","hermanos_nivel_educativo_admision2":"","hermanos_datos_admision3":"","hermanos_id_registro_admision3":"","hermanos_fnacimiento_admision3":"","hermanos_curso_admision3":"","hermanos_nivel_educativo_admision3":"","id_centro_destino":0,"loc_centro_destino":"nodata","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral8924":"","baremo_calle_dllimitrofe8924":"","baremo_proximidad_domicilio8924":"sindomicilio","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","hermanos_datos_baremo1":"","hermanos_id_registro_baremo1":"","hermanos_fnacimiento_baremo1":"","hermanos_curso_baremo1":"","hermanos_nivel_educativo_baremo1":"","hermanos_datos_baremo2":"","hermanos_id_registro_baremo2":"","hermanos_fnacimiento_baremo2":"","hermanos_curso_baremo2":"","hermanos_nivel_educativo_baremo2":"","hermanos_datos_baremo3":"","hermanos_id_registro_baremo3":"","hermanos_fnacimiento_baremo3":"","hermanos_curso_baremo3":"","hermanos_nivel_educativo_baremo3":"","baremo_validar_hnos_centro":"0","baremo_discapacidad8924":"no","baremo_tipo_familia8924":"no","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 12:44:41] : [WARNING] - ACTUALIZANDO SOLICITUD...
+[02-Mar-2020 12:44:41] : [WARNING] - Array
+(
+    [apellido1] => apriv21
+    [apellido2] => nodata
+    [nombre] => nriv2
+    [dni_alumno] => nodata
+    [fnac] => 2007-12-31
+    [nacionalidad] => nodata
+    [datos_tutor1] => ntriv2
+    [dni_tutor1] => 11122233r
+    [datos_tutor2] => nodata
+    [dni_tutor2] => nodata
+    [calle_dfamiliar] => nodata
+    [num_dfamiliar] => nda
+    [piso_dfamiliar] => nodata
+    [cp_dfamiliar] => nodata
+    [loc_dfamiliar] => nodata
+    [tel_dfamiliar1] => 0
+    [tel_dfamiliar2] => 0
+    [id_centro_estudios_origen] => 0
+    [loc_centro_origen] => nodata
+    [reserva8924] => 0
+    [modalidad_origen] => nodata
+    [hermanos_datos_admision1] => 
+    [hermanos_id_registro_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [id_centro_destino] => 0
+    [loc_centro_destino] => nodata
+    [tipoestudios] => EBO
+    [id_centro_destino1] => 
+    [id_centro_destino4] => 
+    [id_centro_destino2] => 
+    [id_centro_destino5] => 
+    [id_centro_destino3] => 
+    [id_centro_destino6] => 
+    [baremo_puntos_totales] => 0
+    [baremo_puntos_validados] => 0
+    [baremo_calle_dlaboral8924] => 
+    [baremo_calle_dllimitrofe8924] => 
+    [baremo_proximidad_domicilio8924] => sindomicilio
+    [baremo_validar_proximidad_domicilio] => 0
+    [baremo_validar_tutores_centro] => 0
+    [baremo_validar_renta_inferior] => 0
+    [hermanos_datos_baremo1] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [baremo_validar_hnos_centro] => 0
+    [baremo_discapacidad8924] => no
+    [baremo_tipo_familia8924] => no
+    [baremo_validar_discapacidad] => 0
+    [baremo_validar_tipo_familia] => 0
+    [baremo_ptstotal] => 
+    [baremo_tutores_centro] => 0
+    [baremo_renta_inferior] => 0
+)
+
+[02-Mar-2020 12:44:41] : [WARNING] - ENTRANDO EN UPDATE
+[02-Mar-2020 12:44:41] : [WARNING] - CONSULTA ACTUALIZACION BAREMO
+[02-Mar-2020 12:44:41] : [WARNING] - UPDATE baremo set puntos_totales='0',puntos_validados='0',proximidad_domicilio='sindomicilio',validar_proximidad_domicilio='0',validar_tutores_centro='0',validar_renta_inferior='0',validar_hnos_centro='0',discapacidad='no',tipo_familia='no',validar_discapacidad='0',validar_tipo_familia='0',tutores_centro='0',renta_inferior='0' WHERE id_alumno=8924
+[02-Mar-2020 12:44:41] : [WARNING] - CONSULTA ACTUALIZACION SOLICITUD ALUMNOS
+[02-Mar-2020 12:44:41] : [WARNING] - UPDATE alumnos set apellido1='apriv21',apellido2='nodata',nombre='nriv2',dni_alumno='nodata',fnac='2007-12-31',nacionalidad='nodata',datos_tutor1='ntriv2',dni_tutor1='11122233r',datos_tutor2='nodata',dni_tutor2='nodata',calle_dfamiliar='nodata',num_dfamiliar='nda',piso_dfamiliar='nodata',cp_dfamiliar='nodata',loc_dfamiliar='nodata',tel_dfamiliar1='0',tel_dfamiliar2='0',id_centro_estudios_origen='0',loc_centro_origen='nodata',reserva='0',modalidad_origen='nodata',id_centro_destino='0',loc_centro_destino='nodata',tipoestudios='EBO' WHERE id_alumno=8924
+[02-Mar-2020 12:44:41] : [WARNING] - DATOS ACTUALIZACION SOLICITUD HERMANOS: 
+[02-Mar-2020 12:44:41] : [WARNING] - Array
+(
+    [1] => Array
+        (
+            [datos] => 
+            [id_registro] => 
+            [fnacimiento] => 
+            [curso] => 
+            [nivel_educativo] => 
+        )
+
+    [2] => Array
+        (
+            [datos] => 
+            [id_registro] => 
+            [fnacimiento] => 
+            [curso] => 
+            [nivel_educativo] => 
+        )
+
+    [3] => Array
+        (
+            [datos] => 
+            [id_registro] => 
+            [fnacimiento] => 
+            [curso] => 
+            [nivel_educativo] => 
+        )
+
+)
+
+[02-Mar-2020 12:44:41] : [WARNING] - BORRANDO HERMANOS ADMISION
+[02-Mar-2020 12:44:41] : [WARNING] - DELETE from hermanos where id_registro=
+[02-Mar-2020 12:44:41] : [WARNING] - BORRANDO HERMANOS ADMISION
+[02-Mar-2020 12:44:41] : [WARNING] - DELETE from hermanos where id_registro=
+[02-Mar-2020 12:44:41] : [WARNING] - BORRANDO HERMANOS ADMISION
+[02-Mar-2020 12:44:41] : [WARNING] - DELETE from hermanos where id_registro=
+[02-Mar-2020 12:44:41] : [WARNING] - INICIANDO ACTUALIZACION SOLICITUD TRIBUTANTES
+[02-Mar-2020 12:44:41] : [WARNING] - Array
+(
+)
+
+[02-Mar-2020 12:44:46] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:44:46] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:44:46] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:44:46] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:44:46] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:44:46] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:44:46] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:44:46] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:45:43] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:45:43] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:45:43] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:45:43] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:45:43] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:45:43] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:45:43] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:45:43] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:57:58] : [WARNING] - POST REICBIDO ACTUALIZANDO:
+[02-Mar-2020 12:57:58] : [WARNING] - apellido1=priv3&apellido2=&nombre=nriv3&dni_alumno=&fnac=2008-01-30&nacionalidad=&datos_tutor1=ntriv3&dni_tutor1=20304020f&datos_tutor2=&dni_tutor2=&calle_dfamiliar=&num_dfamiliar=&piso_dfamiliar=&cp_dfamiliar=&loc_dfamiliar=&tel_dfamiliar1=&tel_dfamiliar2=&id_centro_estudios_origen=&loc_centro_origen=&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=0&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=0&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=0&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE&loc_centro_destino=&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral=&baremo_calle_dllimitrofe=&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0
+[02-Mar-2020 12:57:58] : [WARNING] - select id_centro from centros  where nombre_centro='ANGEL RIVIÈRE'
+[02-Mar-2020 12:57:58] : [WARNING] - VALOR CENTRO ORIGEN:
+[02-Mar-2020 12:57:58] : [WARNING] - 
+[02-Mar-2020 12:57:58] : [WARNING] - VALOR CENTRO ORIGEN DESPUES:
+[02-Mar-2020 12:57:58] : [WARNING] - 
+[02-Mar-2020 12:57:58] : [WARNING] - select id_centro from centros  where nombre_centro=''
+[02-Mar-2020 12:58:02] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:58:02] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:58:02] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:58:02] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:58:02] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:58:02] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:58:02] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:58:02] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:58:27] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:58:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:58:27] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:58:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:58:27] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:58:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:58:27] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:58:27] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:59:04] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:59:04] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 12:59:04] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:59:04] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 12:59:04] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 12:59:04] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 12:59:04] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 12:59:04] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:03:26] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:03:26] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:03:26] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:03:26] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:03:26] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:03:26] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:03:26] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:03:26] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:07:05] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:07:05] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:07:05] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:07:05] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:07:05] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:07:05] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:07:05] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:07:05] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:07:45] : [WARNING] - POST REICBIDO ACTUALIZANDO:
+[02-Mar-2020 13:07:45] : [WARNING] - apellido1=pa4&apellido2=&nombre=n4&dni_alumno=&fnac=2007-01-30&nacionalidad=&datos_tutor1=nt4&dni_tutor1=14071408r&datos_tutor2=&dni_tutor2=&calle_dfamiliar=&num_dfamiliar=&piso_dfamiliar=&cp_dfamiliar=&loc_dfamiliar=&tel_dfamiliar1=&tel_dfamiliar2=&id_centro_estudios_origen=&loc_centro_origen=&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=0&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=0&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=0&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE&loc_centro_destino=&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral=&baremo_calle_dllimitrofe=&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0
+[02-Mar-2020 13:07:45] : [WARNING] - select id_centro from centros  where nombre_centro='ANGEL RIVIÈRE'
+[02-Mar-2020 13:07:45] : [WARNING] - VALOR CENTRO ORIGEN:
+[02-Mar-2020 13:07:45] : [WARNING] - 
+[02-Mar-2020 13:07:45] : [WARNING] - VALOR CENTRO ORIGEN DESPUES:
+[02-Mar-2020 13:07:45] : [WARNING] - 
+[02-Mar-2020 13:07:45] : [WARNING] - select id_centro from centros  where nombre_centro=''
+[02-Mar-2020 13:07:50] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:07:50] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:07:50] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:07:50] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:07:50] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:07:50] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:07:50] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:07:50] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:12:39] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:12:39] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:12:39] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:12:39] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:12:39] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:12:39] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:12:39] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:12:39] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:12:46] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:12:46] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:12:46] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:12:46] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:12:46] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:12:46] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:12:46] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:12:46] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:12:47] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:12:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:12:47] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:12:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:12:47] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:12:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:12:47] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:12:47] : [WARNING] - select concat(nombre_centro,'*') as nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='50017369' limit 1
+[02-Mar-2020 13:12:55] : [WARNING] - POST REICBIDO ACTUALIZANDO:
+[02-Mar-2020 13:12:55] : [WARNING] - apellido1=pa4&apellido2=nodata&nombre=n4&dni_alumno=nodata&fnac=2007-01-30&nacionalidad=nodata&datos_tutor1=nt4&dni_tutor1=14071408r&datos_tutor2=nodata&dni_tutor2=nodata&calle_dfamiliar=nodata&num_dfamiliar=nda&piso_dfamiliar=nodata&cp_dfamiliar=nodata&loc_dfamiliar=nodata&tel_dfamiliar1=0&tel_dfamiliar2=0&id_centro_estudios_origen=0&loc_centro_origen=nodata&reserva8926=0&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE*&loc_centro_destino=nodata&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral8926=&baremo_calle_dllimitrofe8926=&baremo_proximidad_domicilio8926=sindomicilio&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_discapacidad8926=no&baremo_tipo_familia8926=no&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0
+[02-Mar-2020 13:12:55] : [WARNING] - select id_centro from centros  where nombre_centro='ANGEL RIVIÈRE*'
+[02-Mar-2020 13:12:55] : [WARNING] - VALOR CENTRO ORIGEN:
+[02-Mar-2020 13:12:55] : [WARNING] - 0
+[02-Mar-2020 13:12:55] : [WARNING] - VALOR CENTRO ORIGEN DESPUES:
+[02-Mar-2020 13:12:55] : [WARNING] - 0
+[02-Mar-2020 13:12:55] : [WARNING] - select id_centro from centros  where nombre_centro='0'
+[02-Mar-2020 13:12:55] : [WARNING] - ACTUALIZAR FORMULARIO RECIBIDO - DATOS BRUTOS:
+[02-Mar-2020 13:12:55] : [WARNING] - apellido1=pa4&apellido2=nodata&nombre=n4&dni_alumno=nodata&fnac=2007-01-30&nacionalidad=nodata&datos_tutor1=nt4&dni_tutor1=14071408r&datos_tutor2=nodata&dni_tutor2=nodata&calle_dfamiliar=nodata&num_dfamiliar=nda&piso_dfamiliar=nodata&cp_dfamiliar=nodata&loc_dfamiliar=nodata&tel_dfamiliar1=0&tel_dfamiliar2=0&id_centro_estudios_origen=0&loc_centro_origen=nodata&reserva8926=0&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE*&loc_centro_destino=nodata&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral8926=&baremo_calle_dllimitrofe8926=&baremo_proximidad_domicilio8926=sindomicilio&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_discapacidad8926=no&baremo_tipo_familia8926=no&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0&baremo_ptstotal=
+[02-Mar-2020 13:12:55] : [WARNING] - ACTUALIZAR FORMULARIO RECIBIDO: ACTUALIZAR SOLICITUD
+[02-Mar-2020 13:12:55] : [WARNING] - {"apellido1":"pa4","apellido2":"nodata","nombre":"n4","dni_alumno":"nodata","fnac":"2007-01-30","nacionalidad":"nodata","datos_tutor1":"nt4","dni_tutor1":"14071408r","datos_tutor2":"nodata","dni_tutor2":"nodata","calle_dfamiliar":"nodata","num_dfamiliar":"nda","piso_dfamiliar":"nodata","cp_dfamiliar":"nodata","loc_dfamiliar":"nodata","tel_dfamiliar1":"0","tel_dfamiliar2":"0","id_centro_estudios_origen":0,"loc_centro_origen":"nodata","reserva8926":"0","modalidad_origen":"nodata","hermanos_datos_admision1":"","hermanos_id_registro_admision1":"","hermanos_fnacimiento_admision1":"","hermanos_curso_admision1":"","hermanos_nivel_educativo_admision1":"","hermanos_datos_admision2":"","hermanos_id_registro_admision2":"","hermanos_fnacimiento_admision2":"","hermanos_curso_admision2":"","hermanos_nivel_educativo_admision2":"","hermanos_datos_admision3":"","hermanos_id_registro_admision3":"","hermanos_fnacimiento_admision3":"","hermanos_curso_admision3":"","hermanos_nivel_educativo_admision3":"","id_centro_destino":0,"loc_centro_destino":"nodata","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral8926":"","baremo_calle_dllimitrofe8926":"","baremo_proximidad_domicilio8926":"sindomicilio","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","hermanos_datos_baremo1":"","hermanos_id_registro_baremo1":"","hermanos_fnacimiento_baremo1":"","hermanos_curso_baremo1":"","hermanos_nivel_educativo_baremo1":"","hermanos_datos_baremo2":"","hermanos_id_registro_baremo2":"","hermanos_fnacimiento_baremo2":"","hermanos_curso_baremo2":"","hermanos_nivel_educativo_baremo2":"","hermanos_datos_baremo3":"","hermanos_id_registro_baremo3":"","hermanos_fnacimiento_baremo3":"","hermanos_curso_baremo3":"","hermanos_nivel_educativo_baremo3":"","baremo_validar_hnos_centro":"0","baremo_discapacidad8926":"no","baremo_tipo_familia8926":"no","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 13:12:55] : [WARNING] - ACTUALIZANDO SOLICITUD...
+[02-Mar-2020 13:12:55] : [WARNING] - Array
+(
+    [apellido1] => pa4
+    [apellido2] => nodata
+    [nombre] => n4
+    [dni_alumno] => nodata
+    [fnac] => 2007-01-30
+    [nacionalidad] => nodata
+    [datos_tutor1] => nt4
+    [dni_tutor1] => 14071408r
+    [datos_tutor2] => nodata
+    [dni_tutor2] => nodata
+    [calle_dfamiliar] => nodata
+    [num_dfamiliar] => nda
+    [piso_dfamiliar] => nodata
+    [cp_dfamiliar] => nodata
+    [loc_dfamiliar] => nodata
+    [tel_dfamiliar1] => 0
+    [tel_dfamiliar2] => 0
+    [id_centro_estudios_origen] => 0
+    [loc_centro_origen] => nodata
+    [reserva8926] => 0
+    [modalidad_origen] => nodata
+    [hermanos_datos_admision1] => 
+    [hermanos_id_registro_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [id_centro_destino] => 0
+    [loc_centro_destino] => nodata
+    [tipoestudios] => EBO
+    [id_centro_destino1] => 
+    [id_centro_destino4] => 
+    [id_centro_destino2] => 
+    [id_centro_destino5] => 
+    [id_centro_destino3] => 
+    [id_centro_destino6] => 
+    [baremo_puntos_totales] => 0
+    [baremo_puntos_validados] => 0
+    [baremo_calle_dlaboral8926] => 
+    [baremo_calle_dllimitrofe8926] => 
+    [baremo_proximidad_domicilio8926] => sindomicilio
+    [baremo_validar_proximidad_domicilio] => 0
+    [baremo_validar_tutores_centro] => 0
+    [baremo_validar_renta_inferior] => 0
+    [hermanos_datos_baremo1] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [baremo_validar_hnos_centro] => 0
+    [baremo_discapacidad8926] => no
+    [baremo_tipo_familia8926] => no
+    [baremo_validar_discapacidad] => 0
+    [baremo_validar_tipo_familia] => 0
+    [baremo_ptstotal] => 
+    [baremo_tutores_centro] => 0
+    [baremo_renta_inferior] => 0
+)
+
+[02-Mar-2020 13:12:55] : [WARNING] - ENTRANDO EN UPDATE
+[02-Mar-2020 13:12:55] : [WARNING] - CONSULTA ACTUALIZACION BAREMO
+[02-Mar-2020 13:12:55] : [WARNING] - UPDATE baremo set puntos_totales='0',puntos_validados='0',proximidad_domicilio='sindomicilio',validar_proximidad_domicilio='0',validar_tutores_centro='0',validar_renta_inferior='0',validar_hnos_centro='0',discapacidad='no',tipo_familia='no',validar_discapacidad='0',validar_tipo_familia='0',tutores_centro='0',renta_inferior='0' WHERE id_alumno=8926
+[02-Mar-2020 13:12:55] : [WARNING] - CONSULTA ACTUALIZACION SOLICITUD ALUMNOS
+[02-Mar-2020 13:12:55] : [WARNING] - UPDATE alumnos set apellido1='pa4',apellido2='nodata',nombre='n4',dni_alumno='nodata',fnac='2007-01-30',nacionalidad='nodata',datos_tutor1='nt4',dni_tutor1='14071408r',datos_tutor2='nodata',dni_tutor2='nodata',calle_dfamiliar='nodata',num_dfamiliar='nda',piso_dfamiliar='nodata',cp_dfamiliar='nodata',loc_dfamiliar='nodata',tel_dfamiliar1='0',tel_dfamiliar2='0',id_centro_estudios_origen='0',loc_centro_origen='nodata',reserva='0',modalidad_origen='nodata',id_centro_destino='0',loc_centro_destino='nodata',tipoestudios='EBO' WHERE id_alumno=8926
+[02-Mar-2020 13:12:55] : [WARNING] - DATOS ACTUALIZACION SOLICITUD HERMANOS: 
+[02-Mar-2020 13:12:55] : [WARNING] - Array
+(
+    [1] => Array
+        (
+            [datos] => 
+            [id_registro] => 
+            [fnacimiento] => 
+            [curso] => 
+            [nivel_educativo] => 
+        )
+
+    [2] => Array
+        (
+            [datos] => 
+            [id_registro] => 
+            [fnacimiento] => 
+            [curso] => 
+            [nivel_educativo] => 
+        )
+
+    [3] => Array
+        (
+            [datos] => 
+            [id_registro] => 
+            [fnacimiento] => 
+            [curso] => 
+            [nivel_educativo] => 
+        )
+
+)
+
+[02-Mar-2020 13:12:55] : [WARNING] - BORRANDO HERMANOS ADMISION
+[02-Mar-2020 13:12:55] : [WARNING] - DELETE from hermanos where id_registro=
+[02-Mar-2020 13:12:55] : [WARNING] - BORRANDO HERMANOS ADMISION
+[02-Mar-2020 13:12:55] : [WARNING] - DELETE from hermanos where id_registro=
+[02-Mar-2020 13:12:55] : [WARNING] - BORRANDO HERMANOS ADMISION
+[02-Mar-2020 13:12:55] : [WARNING] - DELETE from hermanos where id_registro=
+[02-Mar-2020 13:12:55] : [WARNING] - INICIANDO ACTUALIZACION SOLICITUD TRIBUTANTES
+[02-Mar-2020 13:12:55] : [WARNING] - Array
+(
+)
+
+[02-Mar-2020 13:12:58] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:12:58] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:12:58] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:12:58] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:12:58] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:12:58] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:12:58] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:12:58] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:21:00] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:21:00] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:21:00] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:21:00] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:21:00] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:21:00] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:21:00] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:21:00] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:29] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:29] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:29] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:29] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:29] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:29] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:29] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:29] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:30] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:30] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:30] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:30] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:55] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:55] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:55] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:55] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:55] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:55] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:55] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:55] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:56] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:56] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:56] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:56] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:56] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:56] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:56] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:56] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:58] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:58] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:58] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:58] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:22:58] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:22:58] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:22:58] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:22:58] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:15] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:15] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:15] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:15] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:15] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:15] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:15] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:15] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:26] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:26] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:26] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:26] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:26] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:26] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:26] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:26] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:27] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:27] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:27] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:27] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:45] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:45] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:45] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:45] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:45] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:45] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:45] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:45] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:47] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:47] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:47] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:47] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:48] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:48] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:48] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:48] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:26:48] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:26:48] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:26:48] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:26:48] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:28:41] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:28:41] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:28:41] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:28:41] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:28:41] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:28:41] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:28:41] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:28:41] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:29:03] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:29:03] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:29:03] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:29:03] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:29:03] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:29:03] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:29:03] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:29:03] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:29:40] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:29:40] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:29:40] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:29:40] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:29:40] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:29:40] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:29:40] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:29:40] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:30:47] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:30:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:30:47] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:30:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:30:47] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:30:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:30:47] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:30:47] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:31:25] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:31:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:31:25] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:31:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:31:25] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:31:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:31:25] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:31:25] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:32:30] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:32:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:32:30] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:32:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:32:30] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:32:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:32:30] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:32:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:32:57] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:32:57] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:32:57] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:32:57] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:32:57] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:32:57] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:32:57] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:32:57] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:34:44] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:34:44] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:34:44] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:34:44] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:34:44] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:34:44] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:34:44] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:34:44] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:34:52] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:34:52] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:34:52] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:34:52] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:34:52] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:34:52] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:34:52] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:34:52] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:34:53] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:34:53] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:34:53] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:34:53] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:34:53] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:34:53] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:34:53] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:34:53] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:35:29] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:35:29] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:35:29] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:35:29] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:35:29] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:35:29] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:35:29] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:35:29] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:36:27] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:36:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:36:27] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:36:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:36:27] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:36:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:36:27] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:36:27] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:36:30] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:36:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:36:30] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:36:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'
+[02-Mar-2020 13:36:30] : [WARNING] - AVERIGUANDO TIPO DE CENTRO
+[02-Mar-2020 13:36:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0' limit 1
+[02-Mar-2020 13:36:30] : [WARNING] - devolviendo nombre de centro
+[02-Mar-2020 13:36:30] : [WARNING] - select nombre_centro from centros c,centros_grupos cg where c.id_centro=cg.id_centro and c.id_centro='0'

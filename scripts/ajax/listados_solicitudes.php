@@ -148,10 +148,10 @@ else
 	$tablaresumen=$tcentro->getResumen($_POST['rol'],'alumnos');
 	$nombre_centro=$tcentro->getNombre();
 
-	$log_listado_solicitudes->warning("OBTENIENDO SOLICITUDES, SORTEO: FASE SORTEO: ".$fase_sorteo." DIA SORTEO: ".$dia_sorteo);
 	  #Mostramos formulario para el sorteo si es el dia correcto
         $fase_sorteo=$tcentro->getFaseSorteo();
 	#Mostramos formulario para el sorteo si es el dia correcto
+	$log_listado_solicitudes->warning("OBTENIENDO SOLICITUDES, SORTEO: FASE SORTEO: ".$fase_sorteo." DIA SORTEO: ".$dia_sorteo);
 	if($fase_sorteo==0)
 	{
 			if($dia_sorteo==1) print($form_sorteo);

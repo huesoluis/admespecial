@@ -1,0 +1,259 @@
+[02-Mar-2020 10:42:37] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 10:42:46] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 10:46:49] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:02:40] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:03:25] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:03:27] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:05:42] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:05:44] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:06:22] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:06:24] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:07:46] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:07:48] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:07:54] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:08:47] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:08:48] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:09:31] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:09:33] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:10:46] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:10:47] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:12:19] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:12:21] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+					select t1.nc centro,t1.nb borrador,t2.np validada, t3.nd baremada
+					from (select nombre_centro nc,count(*) as nb from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='borrador') t1 
+					join
+					(select nombre_centro nc,count(*) as np from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='validada') t2 on t1.nc=t2.nc
+					join
+					(select nombre_centro nc,count(*) as nd from centros c, alumnos a where a.id_centro_destino=c.id_centro and id_centro=50017369 and fase_solicitud='baremada') t3 on t2.nc=t3.nc
+[02-Mar-2020 11:15:37] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:24:11] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 11:24:33] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						
+[02-Mar-2020 12:10:35] : [WARNING] - CONSULTA DATOS RESUMEN MATRICULA: 
+						select t1.ta,t3.ng as grupo,t3.plazas as puestos,IFNULL(t2.np,0) as plazasactuales,
+						IFNULL(IF(ifnull(t3.plazas,0)-ifnull(t2.np,0)<0,0,ifnull(t3.plazas,0)-ifnull(t2.np,0)),0
+						) 
+						as vacantes from 
+						(select tipo_alumno ta,num_grupos as ng,plazas from centros_grupos ce where ce.id_centro=50017369) as t3 
+						left join 
+						(select  tipo_alumno_actual as tf, count(*) as np from matricula where id_centro=50017369 and estado='continua' group by tipo_alumno_actual ) as t2  
+						on t3.ta=t2.tf 
+						left join 
+						(select  tipo_alumno_actual as ta, count(*) as np from matricula m,centros ce where m.id_centro=ce.id_centro and ce.id_centro=50017369 group by tipo_alumno_actual  ) as t1 
+						on t1.ta=t3.ta
+						

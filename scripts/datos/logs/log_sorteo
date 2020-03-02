@@ -1,0 +1,66 @@
+[02-Mar-2020 10:42:46] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 10:42:46] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 10:42:46] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 10:42:46] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 10:42:46] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 10:42:46] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:02:40] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:02:40] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:02:40] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:02:40] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:02:40] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:02:40] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:03:27] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:03:27] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:03:27] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:03:27] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:03:27] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:03:27] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:05:44] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:05:44] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:05:44] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:05:44] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:05:44] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:05:44] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:06:24] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:06:24] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:06:24] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:06:24] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:06:24] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:06:24] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:07:48] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:07:48] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:07:48] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:07:48] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:07:48] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:07:48] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:07:54] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:07:54] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:07:54] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:07:54] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:07:54] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:07:54] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:08:48] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:08:48] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:08:48] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:08:48] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:08:48] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:08:48] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:09:33] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:09:33] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:09:33] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:09:33] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:09:33] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:09:33] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:10:47] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:10:47] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:10:47] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:10:47] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:10:47] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:10:47] : [WARNING] - select fase_sorteo rom centros where id_centro=50017369
+[02-Mar-2020 11:12:21] : [WARNING] - OBTENIENDO NUMERO DE SOLICITUDES
+[02-Mar-2020 11:12:21] : [WARNING] - SELECT count(*) as nsolicitudes FROM alumnos where fase_solicitud!='borrador' and id_centro_destino=50017369
+[02-Mar-2020 11:12:21] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:12:21] : [WARNING] - select fase_sorteo from centros where id_centro=50017369
+[02-Mar-2020 11:12:21] : [WARNING] - OBTENIENDO FASE SORTEO
+[02-Mar-2020 11:12:21] : [WARNING] - select fase_sorteo from centros where id_centro=50017369

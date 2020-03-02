@@ -26,7 +26,9 @@ include('includes/head.php');
 			if($_SESSION['nombre_usuario']=='nousuario')
 				echo '<button class="btn btn-outline-info" id="nuevasolicitud" type="button">Nueva solicitud</button>';
 			else //usuario alumno autenticado
+			{
 				echo '<button class="btn btn-outline-info calumno" id="versolicitud" type="button">Ver solicitud</button>';
+			}
 			echo '<a href="'.URL_BASE.'"><button class="btn btn-outline-info" id="inicio" type="button">INICIO</button></a>';
 		}
 		if($_SESSION['rol']=='alumno' && $_SESSION['dia_inicio_inscripcion']==0)
@@ -62,6 +64,7 @@ include('includes/head.php');
 		<script>
 			$( document ).ready(function() {
 			 $( "#nuevasolicitud" ).trigger( "click" );
+			 $( "#versolicitud" ).trigger( "click" );
  			});
 		</script>
 </body>

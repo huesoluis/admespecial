@@ -7,6 +7,7 @@ $hoy=date("Y/m/d");
 $_SESSION['estado']='inicioinscrion';
 $_SESSION['rol'] = 'alumno';      
 $_SESSION['provincia']='aragon';
+
 if($hoy<DIA_INICIO_INSCRIPCION)
 	$_SESSION['dia_inicio_inscripcion']=0;
 else $_SESSION['dia_inicio_inscripcion']=1;
@@ -20,14 +21,9 @@ $_SESSION['nombre_usuario'] ="nousuario";
 $_SESSION['fecha_actual'] = date("Y/m/d");      
 $_SESSION['estado_convocatoria'] =0;//0. inicio inscripciones, 1. dia de sorteo, 2. baremacion, 3. Provisionales, 4. Definitivos      
 
- $_SESSION['estado_convocatoria'] =0;//0. inicio inscripciones, 1. dia de sorteo, 2. baremacion, 3. Provisionales, 4. Definitivos      
-if($_SESSION['fecha_actual']<DIA_SORTEO)
-{
- $_SESSION['sorteo'] = 0;      
-}
-else{
- $_SESSION['sorteo'] = 1;     
-} 
+if($_SESSION['fecha_actual']<DIA_SORTEO) $_SESSION['sorteo'] = 0;      
+else  $_SESSION['sorteo'] = 1;  
+ 
 if($_SESSION['fecha_actual']==date(DIA_SORTEO)) //JUEVES 19 marzo) //BAREMACION: hasta 23 marzo inclusive
  		$_SESSION['estado_convocatoria'] =1;//0. inicio inscripciones, 1. dia de sorteo, 2. baremacion, 3. Provisionales, 4. Definitivos      
 elseif($_SESSION['fecha_actual']>DIA_SORTEO and $_SESSION['fecha_actual']<DIA_BAREMACION)
@@ -119,7 +115,7 @@ header('Content-Type: text/html; charset=UTF-8');
 			   {
 // Display an error message if password is not valid
 				$password_err = 'Clave incorrecta';
-				print("error");
+				print("Error ".$password_err);
 			  }
 }
 } 

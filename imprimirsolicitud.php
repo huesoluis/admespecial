@@ -23,10 +23,10 @@ include('includes/head.php');
 <body>
     <div class="wrapper">
 	    <div id="content">
-			<a href="<? echo URL_BASE ?>"><button class="btn btn-outline-info" id="inicio" type="button">INICIO</button></a>
-			<button class="btn btn-primary" id="imprimir">IMPRIMIR CTRLP</button>
-	  	<span type="hidden" id="estado" name="estado"><?php echo $_SESSION['estado']; ?></span>
-	  	<span type="hidden" id="rol" name="rol"><?php echo $_SESSION['rol']; ?></span> 
+			<a href="<?php echo URL_BASE ?>"><button class="btn btn-outline-info" id="inicio" type="button">INICIO</button></a>
+			<button class="btn btn-primary" id="imprimir">IMPRIMIR</button>
+	  	<span type="hidden" id="estado_convocatoria" name="estado_convocatoria" value="<?php echo $_SESSION['estado_convocatoria']; ?>"></span>
+	  	<span type="hidden" id="rol" name="rol" value="<?php echo $_SESSION['rol']; ?>"></span> 
 				<?php include 'includes/cabecera_impresion.php';?>
 			<div class="row ">
 				<div id="headimp" style="width:100%">
@@ -43,8 +43,11 @@ include('includes/head.php');
 <script>
 $('#imprimir').click(function(){
 
+document.body.style.zoom = "80%"; 
+$('#inicio').hide();
 $('#imprimir').hide();
 window.print();
+$('#inicio').show();
 $('#imprimir').show();
 });
 </script>

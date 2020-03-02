@@ -1,0 +1,890 @@
+[02-Mar-2020 12:17:02] : [WARNING] - NUEVA SOLICITUD, nombre centro: NONAME
+[02-Mar-2020 12:17:02] : [WARNING] - Array
+(
+    [nombre_centro_destino] => NONAME
+)
+
+[02-Mar-2020 12:17:55] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, NOMBRE CENTRO: ANGEL RIVIÈRE
+[02-Mar-2020 12:17:55] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, ID CENTRO: 50017369
+[02-Mar-2020 12:17:55] : [WARNING] - SOLICITUD NUEVA, FORMULARIO RECIBIDO - DATOS BRUTOS:
+[02-Mar-2020 12:17:55] : [WARNING] - apellido1=riap1&apellido2=&nombre=nri1&dni_alumno=&fnac=2007-01-30&nacionalidad=&datos_tutor1=ntriv1&dni_tutor1=11122233c&datos_tutor2=&dni_tutor2=&calle_dfamiliar=&num_dfamiliar=&piso_dfamiliar=&cp_dfamiliar=&loc_dfamiliar=&tel_dfamiliar1=&tel_dfamiliar2=&id_centro_estudios_origen=&loc_centro_origen=&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=0&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=0&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=0&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE&loc_centro_destino=&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral=&baremo_calle_dllimitrofe=&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0&baremo_ptstotal=
+[02-Mar-2020 12:17:55] : [WARNING] - FORMULARIO RECIBIDO:GRABAR SOLICITUD
+[02-Mar-2020 12:17:55] : [WARNING] - {"apellido1":"riap1","apellido2":"","nombre":"nri1","dni_alumno":"","fnac":"2007-01-30","nacionalidad":"","datos_tutor1":"ntriv1","dni_tutor1":"11122233c","datos_tutor2":"","dni_tutor2":"","calle_dfamiliar":"","num_dfamiliar":"","piso_dfamiliar":"","cp_dfamiliar":"","loc_dfamiliar":"","tel_dfamiliar1":"","tel_dfamiliar2":"","id_centro_estudios_origen":0,"loc_centro_origen":"","modalidad_origen":"nodata","hermanos_datos_admision1":"","hermanos_id_registro_admision1":"0","hermanos_fnacimiento_admision1":"","hermanos_curso_admision1":"","hermanos_nivel_educativo_admision1":"","hermanos_datos_admision2":"","hermanos_id_registro_admision2":"0","hermanos_fnacimiento_admision2":"","hermanos_curso_admision2":"","hermanos_nivel_educativo_admision2":"","hermanos_datos_admision3":"","hermanos_id_registro_admision3":"0","hermanos_fnacimiento_admision3":"","hermanos_curso_admision3":"","hermanos_nivel_educativo_admision3":"","id_centro_destino":"50017369","loc_centro_destino":"","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral":"","baremo_calle_dllimitrofe":"","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","hermanos_datos_baremo1":"","hermanos_id_registro_baremo1":"","hermanos_fnacimiento_baremo1":"","hermanos_curso_baremo1":"","hermanos_nivel_educativo_baremo1":"","hermanos_datos_baremo2":"","hermanos_id_registro_baremo2":"","hermanos_fnacimiento_baremo2":"","hermanos_curso_baremo2":"","hermanos_nivel_educativo_baremo2":"","hermanos_datos_baremo3":"","hermanos_id_registro_baremo3":"","hermanos_fnacimiento_baremo3":"","hermanos_curso_baremo3":"","hermanos_nivel_educativo_baremo3":"","baremo_validar_hnos_centro":"0","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 12:17:55] : [WARNING] - GRABANDO NUEVA SOLICITUD...
+[02-Mar-2020 12:17:55] : [WARNING] - Array
+(
+    [apellido1] => riap1
+    [apellido2] => 
+    [nombre] => nri1
+    [dni_alumno] => 
+    [fnac] => 2007-01-30
+    [nacionalidad] => 
+    [datos_tutor1] => ntriv1
+    [dni_tutor1] => 11122233c
+    [datos_tutor2] => 
+    [dni_tutor2] => 
+    [calle_dfamiliar] => 
+    [num_dfamiliar] => 
+    [piso_dfamiliar] => 
+    [cp_dfamiliar] => 
+    [loc_dfamiliar] => 
+    [tel_dfamiliar1] => 
+    [tel_dfamiliar2] => 
+    [id_centro_estudios_origen] => 0
+    [loc_centro_origen] => 
+    [modalidad_origen] => nodata
+    [hermanos_datos_admision1] => 
+    [hermanos_id_registro_admision1] => 0
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_id_registro_admision2] => 0
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_id_registro_admision3] => 0
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [id_centro_destino] => 50017369
+    [loc_centro_destino] => 
+    [tipoestudios] => EBO
+    [id_centro_destino1] => 
+    [id_centro_destino4] => 
+    [id_centro_destino2] => 
+    [id_centro_destino5] => 
+    [id_centro_destino3] => 
+    [id_centro_destino6] => 
+    [baremo_puntos_totales] => 0
+    [baremo_puntos_validados] => 0
+    [baremo_calle_dlaboral] => 
+    [baremo_calle_dllimitrofe] => 
+    [baremo_validar_proximidad_domicilio] => 0
+    [baremo_validar_tutores_centro] => 0
+    [baremo_validar_renta_inferior] => 0
+    [hermanos_datos_baremo1] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [baremo_validar_hnos_centro] => 0
+    [baremo_validar_discapacidad] => 0
+    [baremo_validar_tipo_familia] => 0
+    [baremo_ptstotal] => 
+    [baremo_tutores_centro] => 0
+    [baremo_renta_inferior] => 0
+)
+
+[02-Mar-2020 12:17:55] : [WARNING] - ENTRANDO EN SAVE
+[02-Mar-2020 12:17:55] : [WARNING] - NO HAY HERMANOS EN ADMISION
+[02-Mar-2020 12:17:55] : [WARNING] - NO HAY HERMANOS EN BAREMO
+[02-Mar-2020 12:17:55] : [WARNING] - CONSULTA NUM ASIGNADO: SELECT nasignado FROM alumnos WHERE id_centro_destino=50017369 and tipoestudios='ebo' order by nasignado desc limit 1
+[02-Mar-2020 12:17:55] : [WARNING] - DATOS DE ALUMNOS
+[02-Mar-2020 12:17:55] : [WARNING] - {"apellido1":"riap1","apellido2":"","nombre":"nri1","dni_alumno":"","fnac":"2007-01-30","nacionalidad":"","datos_tutor1":"ntriv1","dni_tutor1":"11122233c","datos_tutor2":"","dni_tutor2":"","calle_dfamiliar":"","num_dfamiliar":"","piso_dfamiliar":"","cp_dfamiliar":"","loc_dfamiliar":"","tel_dfamiliar1":"","tel_dfamiliar2":"","id_centro_estudios_origen":0,"loc_centro_origen":"","modalidad_origen":"nodata","id_centro_destino":"50017369","loc_centro_destino":"","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","nasignado":1}
+[02-Mar-2020 12:17:55] : [WARNING] - DATOS CUENTA SELECT nombre_usuario,clave_original FROM usuarios where nombre_usuario=11122233c and clave_original=3566
+[02-Mar-2020 12:17:55] : [WARNING] - CONSULTA INSERCION USUARIO:
+[02-Mar-2020 12:17:55] : [WARNING] - INSERT INTO usuarios(nombre_usuario,rol,clave,clave_original) VALUES('11122233c','alumno',md5('3566'),3566)
+[02-Mar-2020 12:17:55] : [WARNING] - USUARIO INSERTADO, ENTRANDO EN ALUMNO
+[02-Mar-2020 12:17:55] : [WARNING] - CONSULTA INSERCION ALUMNO:
+[02-Mar-2020 12:17:55] : [WARNING] - INSERT INTO alumnos(id_alumno,apellido1,nombre,fnac,datos_tutor1,dni_tutor1,id_centro_estudios_origen,modalidad_origen,id_centro_destino,tipoestudios,nasignado,id_usuario) VALUES(0,'riap1','nri1','2007-01-30','ntriv1','11122233c','0','nodata','50017369','EBO','1','50032928')
+[02-Mar-2020 12:17:55] : [WARNING] - ID INSERCION ALUMNO:
+[02-Mar-2020 12:17:55] : [WARNING] - 8923
+[02-Mar-2020 12:17:55] : [WARNING] - DATOS DE BAREMO
+[02-Mar-2020 12:17:55] : [WARNING] - {"id_alumno":8923,"baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral":"","baremo_calle_dllimitrofe":"","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","baremo_validar_hnos_centro":"0","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 12:17:55] : [WARNING] - DATOS TRIBUTANTES
+[02-Mar-2020 12:17:55] : [WARNING] - Array
+(
+    [id_alumno] => 8923
+)
+
+[02-Mar-2020 12:17:55] : [WARNING] - CONSULTA INSERCION BAREMO:
+[02-Mar-2020 12:17:55] : [WARNING] - INSERT INTO baremo(id_alumno,puntos_totales,puntos_validados,validar_proximidad_domicilio,validar_tutores_centro,validar_renta_inferior,validar_hnos_centro,validar_discapacidad,validar_tipo_familia,tutores_centro,renta_inferior) VALUES('8923','0','0','0','0','0','0','0','0','0','0')
+[02-Mar-2020 12:17:55] : [WARNING] - GUARDADO BAREMO
+[02-Mar-2020 12:17:55] : [WARNING] - ENTRANDO TRIBUTANTES:
+[02-Mar-2020 12:17:55] : [WARNING] - Array
+(
+    [id_alumno] => 8923
+)
+
+[02-Mar-2020 12:17:55] : [WARNING] - 1
+[02-Mar-2020 12:17:55] : [WARNING] - NO DATOS TRIBUTANTE
+[02-Mar-2020 12:30:29] : [WARNING] - NUEVA SOLICITUD, nombre centro: NONAME
+[02-Mar-2020 12:30:29] : [WARNING] - Array
+(
+    [id_alumno] => 
+    [id_usuario] => 
+    [apellido1] => 
+    [apellido2] => 
+    [nombre] => 
+    [dni_alumno] => 
+    [nacionalidad] => 
+    [fnac] => 
+    [num_hbaremo] => 
+    [num_hadmision] => 
+    [datos_tutor1] => 
+    [datos_tutor2] => 
+    [dni_tutor2] => 
+    [dni_tutor1] => 
+    [calle_dfamiliar] => 
+    [num_dfamiliar] => 
+    [piso_dfamiliar] => 
+    [loc_dfamiliar] => 
+    [cp_dfamiliar] => 
+    [tel_dfamiliar1] => 
+    [tel_dfamiliar2] => 
+    [nuevaesc] => 
+    [id_centro_estudios_origen] => 
+    [loc_centro_origen] => 
+    [modalidad_origen] => 
+    [id_centro_destino] => 
+    [curso_solicitado] => 
+    [loc_centro_destino] => 
+    [modalidad_destino] => 
+    [id_centro_destino1] => 
+    [id_centro_destino2] => 
+    [id_centro_destino3] => 
+    [id_centro_destino4] => 
+    [id_centro_destino5] => 
+    [id_centro_destino6] => 
+    [fotocopia_resolucion] => 
+    [reserva] => 
+    [prematuridad] => 
+    [acred_dom_familiar] => 
+    [cer_rec_discapacidad] => 
+    [fam_numerosa] => 
+    [acred_dom_laboral] => 
+    [permiten_renta] => 
+    [cumplen_resta] => 
+    [fase_solicitud] => 
+    [transporte] => 
+    [nasignado] => 
+    [nordensorteo] => 
+    [estado_solicitud] => 
+    [oponenautorizar] => 
+    [cumplen] => 
+    [tipoestudios] => 
+    [est_desp_sorteo] => 
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [nombre1] => 
+    [apellido11] => 
+    [apellido21] => 
+    [parentesco1] => 
+    [dni1] => 
+    [nombre2] => 
+    [apellido12] => 
+    [apellido22] => 
+    [parentesco2] => 
+    [dni2] => 
+    [nombre3] => 
+    [apellido13] => 
+    [apellido23] => 
+    [parentesco3] => 
+    [dni3] => 
+    [nombre_centro_destino] => NONAME
+)
+
+[02-Mar-2020 12:31:01] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, NOMBRE CENTRO: ANGEL RIVIÈRE
+[02-Mar-2020 12:31:01] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, ID CENTRO: 50017369
+[02-Mar-2020 12:31:01] : [WARNING] - SOLICITUD NUEVA, FORMULARIO RECIBIDO - DATOS BRUTOS:
+[02-Mar-2020 12:31:01] : [WARNING] - apellido1=apriv2&apellido2=&nombre=nriv2&dni_alumno=&fnac=2007-12-31&nacionalidad=&datos_tutor1=ntriv2&dni_tutor1=11122233r&datos_tutor2=&dni_tutor2=&calle_dfamiliar=&num_dfamiliar=&piso_dfamiliar=&cp_dfamiliar=&loc_dfamiliar=&tel_dfamiliar1=&tel_dfamiliar2=&id_centro_estudios_origen=&loc_centro_origen=&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=0&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=0&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=0&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE&loc_centro_destino=&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral=&baremo_calle_dllimitrofe=&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0&baremo_ptstotal=
+[02-Mar-2020 12:31:01] : [WARNING] - FORMULARIO RECIBIDO:GRABAR SOLICITUD
+[02-Mar-2020 12:31:01] : [WARNING] - {"apellido1":"apriv2","apellido2":"","nombre":"nriv2","dni_alumno":"","fnac":"2007-12-31","nacionalidad":"","datos_tutor1":"ntriv2","dni_tutor1":"11122233r","datos_tutor2":"","dni_tutor2":"","calle_dfamiliar":"","num_dfamiliar":"","piso_dfamiliar":"","cp_dfamiliar":"","loc_dfamiliar":"","tel_dfamiliar1":"","tel_dfamiliar2":"","id_centro_estudios_origen":0,"loc_centro_origen":"","modalidad_origen":"nodata","hermanos_datos_admision1":"","hermanos_id_registro_admision1":"0","hermanos_fnacimiento_admision1":"","hermanos_curso_admision1":"","hermanos_nivel_educativo_admision1":"","hermanos_datos_admision2":"","hermanos_id_registro_admision2":"0","hermanos_fnacimiento_admision2":"","hermanos_curso_admision2":"","hermanos_nivel_educativo_admision2":"","hermanos_datos_admision3":"","hermanos_id_registro_admision3":"0","hermanos_fnacimiento_admision3":"","hermanos_curso_admision3":"","hermanos_nivel_educativo_admision3":"","id_centro_destino":"50017369","loc_centro_destino":"","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral":"","baremo_calle_dllimitrofe":"","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","hermanos_datos_baremo1":"","hermanos_id_registro_baremo1":"","hermanos_fnacimiento_baremo1":"","hermanos_curso_baremo1":"","hermanos_nivel_educativo_baremo1":"","hermanos_datos_baremo2":"","hermanos_id_registro_baremo2":"","hermanos_fnacimiento_baremo2":"","hermanos_curso_baremo2":"","hermanos_nivel_educativo_baremo2":"","hermanos_datos_baremo3":"","hermanos_id_registro_baremo3":"","hermanos_fnacimiento_baremo3":"","hermanos_curso_baremo3":"","hermanos_nivel_educativo_baremo3":"","baremo_validar_hnos_centro":"0","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 12:31:01] : [WARNING] - GRABANDO NUEVA SOLICITUD...
+[02-Mar-2020 12:31:01] : [WARNING] - Array
+(
+    [apellido1] => apriv2
+    [apellido2] => 
+    [nombre] => nriv2
+    [dni_alumno] => 
+    [fnac] => 2007-12-31
+    [nacionalidad] => 
+    [datos_tutor1] => ntriv2
+    [dni_tutor1] => 11122233r
+    [datos_tutor2] => 
+    [dni_tutor2] => 
+    [calle_dfamiliar] => 
+    [num_dfamiliar] => 
+    [piso_dfamiliar] => 
+    [cp_dfamiliar] => 
+    [loc_dfamiliar] => 
+    [tel_dfamiliar1] => 
+    [tel_dfamiliar2] => 
+    [id_centro_estudios_origen] => 0
+    [loc_centro_origen] => 
+    [modalidad_origen] => nodata
+    [hermanos_datos_admision1] => 
+    [hermanos_id_registro_admision1] => 0
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_id_registro_admision2] => 0
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_id_registro_admision3] => 0
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [id_centro_destino] => 50017369
+    [loc_centro_destino] => 
+    [tipoestudios] => EBO
+    [id_centro_destino1] => 
+    [id_centro_destino4] => 
+    [id_centro_destino2] => 
+    [id_centro_destino5] => 
+    [id_centro_destino3] => 
+    [id_centro_destino6] => 
+    [baremo_puntos_totales] => 0
+    [baremo_puntos_validados] => 0
+    [baremo_calle_dlaboral] => 
+    [baremo_calle_dllimitrofe] => 
+    [baremo_validar_proximidad_domicilio] => 0
+    [baremo_validar_tutores_centro] => 0
+    [baremo_validar_renta_inferior] => 0
+    [hermanos_datos_baremo1] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [baremo_validar_hnos_centro] => 0
+    [baremo_validar_discapacidad] => 0
+    [baremo_validar_tipo_familia] => 0
+    [baremo_ptstotal] => 
+    [baremo_tutores_centro] => 0
+    [baremo_renta_inferior] => 0
+)
+
+[02-Mar-2020 12:31:01] : [WARNING] - ENTRANDO EN SAVE
+[02-Mar-2020 12:31:01] : [WARNING] - NO HAY HERMANOS EN ADMISION
+[02-Mar-2020 12:31:01] : [WARNING] - NO HAY HERMANOS EN BAREMO
+[02-Mar-2020 12:31:01] : [WARNING] - CONSULTA NUM ASIGNADO: SELECT nasignado FROM alumnos WHERE id_centro_destino=50017369 and tipoestudios='ebo' order by nasignado desc limit 1
+[02-Mar-2020 12:31:01] : [WARNING] - DATOS DE ALUMNOS
+[02-Mar-2020 12:31:01] : [WARNING] - {"apellido1":"apriv2","apellido2":"","nombre":"nriv2","dni_alumno":"","fnac":"2007-12-31","nacionalidad":"","datos_tutor1":"ntriv2","dni_tutor1":"11122233r","datos_tutor2":"","dni_tutor2":"","calle_dfamiliar":"","num_dfamiliar":"","piso_dfamiliar":"","cp_dfamiliar":"","loc_dfamiliar":"","tel_dfamiliar1":"","tel_dfamiliar2":"","id_centro_estudios_origen":0,"loc_centro_origen":"","modalidad_origen":"nodata","id_centro_destino":"50017369","loc_centro_destino":"","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","nasignado":2}
+[02-Mar-2020 12:31:01] : [WARNING] - DATOS CUENTA SELECT nombre_usuario,clave_original FROM usuarios where nombre_usuario=11122233r and clave_original=5251
+[02-Mar-2020 12:31:01] : [WARNING] - CONSULTA INSERCION USUARIO:
+[02-Mar-2020 12:31:01] : [WARNING] - INSERT INTO usuarios(nombre_usuario,rol,clave,clave_original) VALUES('11122233r','alumno',md5('5251'),5251)
+[02-Mar-2020 12:31:01] : [WARNING] - USUARIO INSERTADO, ENTRANDO EN ALUMNO
+[02-Mar-2020 12:31:01] : [WARNING] - CONSULTA INSERCION ALUMNO:
+[02-Mar-2020 12:31:01] : [WARNING] - INSERT INTO alumnos(id_alumno,apellido1,nombre,fnac,datos_tutor1,dni_tutor1,id_centro_estudios_origen,modalidad_origen,id_centro_destino,tipoestudios,nasignado,id_usuario) VALUES(0,'apriv2','nriv2','2007-12-31','ntriv2','11122233r','0','nodata','50017369','EBO','2','50032929')
+[02-Mar-2020 12:31:01] : [WARNING] - ID INSERCION ALUMNO:
+[02-Mar-2020 12:31:01] : [WARNING] - 8924
+[02-Mar-2020 12:31:01] : [WARNING] - DATOS DE BAREMO
+[02-Mar-2020 12:31:01] : [WARNING] - {"id_alumno":8924,"baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral":"","baremo_calle_dllimitrofe":"","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","baremo_validar_hnos_centro":"0","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 12:31:01] : [WARNING] - DATOS TRIBUTANTES
+[02-Mar-2020 12:31:01] : [WARNING] - Array
+(
+    [id_alumno] => 8924
+)
+
+[02-Mar-2020 12:31:01] : [WARNING] - CONSULTA INSERCION BAREMO:
+[02-Mar-2020 12:31:01] : [WARNING] - INSERT INTO baremo(id_alumno,puntos_totales,puntos_validados,validar_proximidad_domicilio,validar_tutores_centro,validar_renta_inferior,validar_hnos_centro,validar_discapacidad,validar_tipo_familia,tutores_centro,renta_inferior) VALUES('8924','0','0','0','0','0','0','0','0','0','0')
+[02-Mar-2020 12:31:01] : [WARNING] - GUARDADO BAREMO
+[02-Mar-2020 12:31:01] : [WARNING] - ENTRANDO TRIBUTANTES:
+[02-Mar-2020 12:31:01] : [WARNING] - Array
+(
+    [id_alumno] => 8924
+)
+
+[02-Mar-2020 12:31:01] : [WARNING] - 1
+[02-Mar-2020 12:31:01] : [WARNING] - NO DATOS TRIBUTANTE
+[02-Mar-2020 12:44:41] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, NOMBRE CENTRO: ANGEL RIVIÈRE*
+[02-Mar-2020 12:44:41] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, ID CENTRO: 0
+[02-Mar-2020 12:46:11] : [WARNING] - NUEVA SOLICITUD, nombre centro: NONAME
+[02-Mar-2020 12:46:11] : [WARNING] - Array
+(
+    [id_alumno] => 
+    [id_usuario] => 
+    [apellido1] => 
+    [apellido2] => 
+    [nombre] => 
+    [dni_alumno] => 
+    [nacionalidad] => 
+    [fnac] => 
+    [num_hbaremo] => 
+    [num_hadmision] => 
+    [datos_tutor1] => 
+    [datos_tutor2] => 
+    [dni_tutor2] => 
+    [dni_tutor1] => 
+    [calle_dfamiliar] => 
+    [num_dfamiliar] => 
+    [piso_dfamiliar] => 
+    [loc_dfamiliar] => 
+    [cp_dfamiliar] => 
+    [tel_dfamiliar1] => 
+    [tel_dfamiliar2] => 
+    [nuevaesc] => 
+    [id_centro_estudios_origen] => 
+    [loc_centro_origen] => 
+    [modalidad_origen] => 
+    [id_centro_destino] => 
+    [curso_solicitado] => 
+    [loc_centro_destino] => 
+    [modalidad_destino] => 
+    [id_centro_destino1] => 
+    [id_centro_destino2] => 
+    [id_centro_destino3] => 
+    [id_centro_destino4] => 
+    [id_centro_destino5] => 
+    [id_centro_destino6] => 
+    [fotocopia_resolucion] => 
+    [reserva] => 
+    [prematuridad] => 
+    [acred_dom_familiar] => 
+    [cer_rec_discapacidad] => 
+    [fam_numerosa] => 
+    [acred_dom_laboral] => 
+    [permiten_renta] => 
+    [cumplen_resta] => 
+    [fase_solicitud] => 
+    [transporte] => 
+    [nasignado] => 
+    [nordensorteo] => 
+    [estado_solicitud] => 
+    [oponenautorizar] => 
+    [cumplen] => 
+    [tipoestudios] => 
+    [est_desp_sorteo] => 
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [nombre1] => 
+    [apellido11] => 
+    [apellido21] => 
+    [parentesco1] => 
+    [dni1] => 
+    [nombre2] => 
+    [apellido12] => 
+    [apellido22] => 
+    [parentesco2] => 
+    [dni2] => 
+    [nombre3] => 
+    [apellido13] => 
+    [apellido23] => 
+    [parentesco3] => 
+    [dni3] => 
+    [nombre_centro_destino] => NONAME
+)
+
+[02-Mar-2020 12:53:45] : [WARNING] - NUEVA SOLICITUD, nombre centro: NONAME
+[02-Mar-2020 12:53:45] : [WARNING] - Array
+(
+    [id_alumno] => 
+    [id_usuario] => 
+    [apellido1] => 
+    [apellido2] => 
+    [nombre] => 
+    [dni_alumno] => 
+    [nacionalidad] => 
+    [fnac] => 
+    [num_hbaremo] => 
+    [num_hadmision] => 
+    [datos_tutor1] => 
+    [datos_tutor2] => 
+    [dni_tutor2] => 
+    [dni_tutor1] => 
+    [calle_dfamiliar] => 
+    [num_dfamiliar] => 
+    [piso_dfamiliar] => 
+    [loc_dfamiliar] => 
+    [cp_dfamiliar] => 
+    [tel_dfamiliar1] => 
+    [tel_dfamiliar2] => 
+    [nuevaesc] => 
+    [id_centro_estudios_origen] => 
+    [loc_centro_origen] => 
+    [modalidad_origen] => 
+    [id_centro_destino] => 
+    [curso_solicitado] => 
+    [loc_centro_destino] => 
+    [modalidad_destino] => 
+    [id_centro_destino1] => 
+    [id_centro_destino2] => 
+    [id_centro_destino3] => 
+    [id_centro_destino4] => 
+    [id_centro_destino5] => 
+    [id_centro_destino6] => 
+    [fotocopia_resolucion] => 
+    [reserva] => 
+    [prematuridad] => 
+    [acred_dom_familiar] => 
+    [cer_rec_discapacidad] => 
+    [fam_numerosa] => 
+    [acred_dom_laboral] => 
+    [permiten_renta] => 
+    [cumplen_resta] => 
+    [fase_solicitud] => 
+    [transporte] => 
+    [nasignado] => 
+    [nordensorteo] => 
+    [estado_solicitud] => 
+    [oponenautorizar] => 
+    [cumplen] => 
+    [tipoestudios] => 
+    [est_desp_sorteo] => 
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [nombre1] => 
+    [apellido11] => 
+    [apellido21] => 
+    [parentesco1] => 
+    [dni1] => 
+    [nombre2] => 
+    [apellido12] => 
+    [apellido22] => 
+    [parentesco2] => 
+    [dni2] => 
+    [nombre3] => 
+    [apellido13] => 
+    [apellido23] => 
+    [parentesco3] => 
+    [dni3] => 
+    [nombre_centro_destino] => NONAME
+)
+
+[02-Mar-2020 12:57:58] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, NOMBRE CENTRO: ANGEL RIVIÈRE
+[02-Mar-2020 12:57:58] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, ID CENTRO: 50017369
+[02-Mar-2020 12:57:58] : [WARNING] - SOLICITUD NUEVA, FORMULARIO RECIBIDO - DATOS BRUTOS:
+[02-Mar-2020 12:57:58] : [WARNING] - apellido1=priv3&apellido2=&nombre=nriv3&dni_alumno=&fnac=2008-01-30&nacionalidad=&datos_tutor1=ntriv3&dni_tutor1=20304020f&datos_tutor2=&dni_tutor2=&calle_dfamiliar=&num_dfamiliar=&piso_dfamiliar=&cp_dfamiliar=&loc_dfamiliar=&tel_dfamiliar1=&tel_dfamiliar2=&id_centro_estudios_origen=&loc_centro_origen=&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=0&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=0&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=0&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE&loc_centro_destino=&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral=&baremo_calle_dllimitrofe=&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0&baremo_ptstotal=
+[02-Mar-2020 12:57:58] : [WARNING] - FORMULARIO RECIBIDO:GRABAR SOLICITUD
+[02-Mar-2020 12:57:58] : [WARNING] - {"apellido1":"priv3","apellido2":"","nombre":"nriv3","dni_alumno":"","fnac":"2008-01-30","nacionalidad":"","datos_tutor1":"ntriv3","dni_tutor1":"20304020f","datos_tutor2":"","dni_tutor2":"","calle_dfamiliar":"","num_dfamiliar":"","piso_dfamiliar":"","cp_dfamiliar":"","loc_dfamiliar":"","tel_dfamiliar1":"","tel_dfamiliar2":"","id_centro_estudios_origen":0,"loc_centro_origen":"","modalidad_origen":"nodata","hermanos_datos_admision1":"","hermanos_id_registro_admision1":"0","hermanos_fnacimiento_admision1":"","hermanos_curso_admision1":"","hermanos_nivel_educativo_admision1":"","hermanos_datos_admision2":"","hermanos_id_registro_admision2":"0","hermanos_fnacimiento_admision2":"","hermanos_curso_admision2":"","hermanos_nivel_educativo_admision2":"","hermanos_datos_admision3":"","hermanos_id_registro_admision3":"0","hermanos_fnacimiento_admision3":"","hermanos_curso_admision3":"","hermanos_nivel_educativo_admision3":"","id_centro_destino":"50017369","loc_centro_destino":"","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral":"","baremo_calle_dllimitrofe":"","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","hermanos_datos_baremo1":"","hermanos_id_registro_baremo1":"","hermanos_fnacimiento_baremo1":"","hermanos_curso_baremo1":"","hermanos_nivel_educativo_baremo1":"","hermanos_datos_baremo2":"","hermanos_id_registro_baremo2":"","hermanos_fnacimiento_baremo2":"","hermanos_curso_baremo2":"","hermanos_nivel_educativo_baremo2":"","hermanos_datos_baremo3":"","hermanos_id_registro_baremo3":"","hermanos_fnacimiento_baremo3":"","hermanos_curso_baremo3":"","hermanos_nivel_educativo_baremo3":"","baremo_validar_hnos_centro":"0","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 12:57:58] : [WARNING] - GRABANDO NUEVA SOLICITUD...
+[02-Mar-2020 12:57:58] : [WARNING] - Array
+(
+    [apellido1] => priv3
+    [apellido2] => 
+    [nombre] => nriv3
+    [dni_alumno] => 
+    [fnac] => 2008-01-30
+    [nacionalidad] => 
+    [datos_tutor1] => ntriv3
+    [dni_tutor1] => 20304020f
+    [datos_tutor2] => 
+    [dni_tutor2] => 
+    [calle_dfamiliar] => 
+    [num_dfamiliar] => 
+    [piso_dfamiliar] => 
+    [cp_dfamiliar] => 
+    [loc_dfamiliar] => 
+    [tel_dfamiliar1] => 
+    [tel_dfamiliar2] => 
+    [id_centro_estudios_origen] => 0
+    [loc_centro_origen] => 
+    [modalidad_origen] => nodata
+    [hermanos_datos_admision1] => 
+    [hermanos_id_registro_admision1] => 0
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_id_registro_admision2] => 0
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_id_registro_admision3] => 0
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [id_centro_destino] => 50017369
+    [loc_centro_destino] => 
+    [tipoestudios] => EBO
+    [id_centro_destino1] => 
+    [id_centro_destino4] => 
+    [id_centro_destino2] => 
+    [id_centro_destino5] => 
+    [id_centro_destino3] => 
+    [id_centro_destino6] => 
+    [baremo_puntos_totales] => 0
+    [baremo_puntos_validados] => 0
+    [baremo_calle_dlaboral] => 
+    [baremo_calle_dllimitrofe] => 
+    [baremo_validar_proximidad_domicilio] => 0
+    [baremo_validar_tutores_centro] => 0
+    [baremo_validar_renta_inferior] => 0
+    [hermanos_datos_baremo1] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [baremo_validar_hnos_centro] => 0
+    [baremo_validar_discapacidad] => 0
+    [baremo_validar_tipo_familia] => 0
+    [baremo_ptstotal] => 
+    [baremo_tutores_centro] => 0
+    [baremo_renta_inferior] => 0
+)
+
+[02-Mar-2020 12:57:58] : [WARNING] - ENTRANDO EN SAVE
+[02-Mar-2020 12:57:58] : [WARNING] - NO HAY HERMANOS EN ADMISION
+[02-Mar-2020 12:57:58] : [WARNING] - NO HAY HERMANOS EN BAREMO
+[02-Mar-2020 12:57:58] : [WARNING] - CONSULTA NUM ASIGNADO: SELECT nasignado FROM alumnos WHERE id_centro_destino=50017369 and tipoestudios='ebo' order by nasignado desc limit 1
+[02-Mar-2020 12:57:58] : [WARNING] - DATOS DE ALUMNOS
+[02-Mar-2020 12:57:58] : [WARNING] - {"apellido1":"priv3","apellido2":"","nombre":"nriv3","dni_alumno":"","fnac":"2008-01-30","nacionalidad":"","datos_tutor1":"ntriv3","dni_tutor1":"20304020f","datos_tutor2":"","dni_tutor2":"","calle_dfamiliar":"","num_dfamiliar":"","piso_dfamiliar":"","cp_dfamiliar":"","loc_dfamiliar":"","tel_dfamiliar1":"","tel_dfamiliar2":"","id_centro_estudios_origen":0,"loc_centro_origen":"","modalidad_origen":"nodata","id_centro_destino":"50017369","loc_centro_destino":"","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","nasignado":2}
+[02-Mar-2020 12:57:58] : [WARNING] - DATOS CUENTA SELECT nombre_usuario,clave_original FROM usuarios where nombre_usuario=20304020f and clave_original=7756
+[02-Mar-2020 12:57:58] : [WARNING] - CONSULTA INSERCION USUARIO:
+[02-Mar-2020 12:57:58] : [WARNING] - INSERT INTO usuarios(nombre_usuario,rol,clave,clave_original) VALUES('20304020f','alumno',md5('7756'),7756)
+[02-Mar-2020 12:57:58] : [WARNING] - USUARIO INSERTADO, ENTRANDO EN ALUMNO
+[02-Mar-2020 12:57:58] : [WARNING] - CONSULTA INSERCION ALUMNO:
+[02-Mar-2020 12:57:58] : [WARNING] - INSERT INTO alumnos(id_alumno,apellido1,nombre,fnac,datos_tutor1,dni_tutor1,id_centro_estudios_origen,modalidad_origen,id_centro_destino,tipoestudios,nasignado,id_usuario) VALUES(0,'priv3','nriv3','2008-01-30','ntriv3','20304020f','0','nodata','50017369','EBO','2','50032930')
+[02-Mar-2020 12:57:58] : [WARNING] - ID INSERCION ALUMNO:
+[02-Mar-2020 12:57:58] : [WARNING] - 8925
+[02-Mar-2020 12:57:58] : [WARNING] - DATOS DE BAREMO
+[02-Mar-2020 12:57:58] : [WARNING] - {"id_alumno":8925,"baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral":"","baremo_calle_dllimitrofe":"","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","baremo_validar_hnos_centro":"0","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 12:57:58] : [WARNING] - DATOS TRIBUTANTES
+[02-Mar-2020 12:57:58] : [WARNING] - Array
+(
+    [id_alumno] => 8925
+)
+
+[02-Mar-2020 12:57:58] : [WARNING] - CONSULTA INSERCION BAREMO:
+[02-Mar-2020 12:57:58] : [WARNING] - INSERT INTO baremo(id_alumno,puntos_totales,puntos_validados,validar_proximidad_domicilio,validar_tutores_centro,validar_renta_inferior,validar_hnos_centro,validar_discapacidad,validar_tipo_familia,tutores_centro,renta_inferior) VALUES('8925','0','0','0','0','0','0','0','0','0','0')
+[02-Mar-2020 12:57:58] : [WARNING] - GUARDADO BAREMO
+[02-Mar-2020 12:57:58] : [WARNING] - ENTRANDO TRIBUTANTES:
+[02-Mar-2020 12:57:58] : [WARNING] - Array
+(
+    [id_alumno] => 8925
+)
+
+[02-Mar-2020 12:57:58] : [WARNING] - 1
+[02-Mar-2020 12:57:58] : [WARNING] - NO DATOS TRIBUTANTE
+[02-Mar-2020 13:07:09] : [WARNING] - NUEVA SOLICITUD, nombre centro: NONAME
+[02-Mar-2020 13:07:09] : [WARNING] - Array
+(
+    [id_alumno] => 
+    [id_usuario] => 
+    [apellido1] => 
+    [apellido2] => 
+    [nombre] => 
+    [dni_alumno] => 
+    [nacionalidad] => 
+    [fnac] => 
+    [num_hbaremo] => 
+    [num_hadmision] => 
+    [datos_tutor1] => 
+    [datos_tutor2] => 
+    [dni_tutor2] => 
+    [dni_tutor1] => 
+    [calle_dfamiliar] => 
+    [num_dfamiliar] => 
+    [piso_dfamiliar] => 
+    [loc_dfamiliar] => 
+    [cp_dfamiliar] => 
+    [tel_dfamiliar1] => 
+    [tel_dfamiliar2] => 
+    [nuevaesc] => 
+    [id_centro_estudios_origen] => 
+    [loc_centro_origen] => 
+    [modalidad_origen] => 
+    [id_centro_destino] => 
+    [curso_solicitado] => 
+    [loc_centro_destino] => 
+    [modalidad_destino] => 
+    [id_centro_destino1] => 
+    [id_centro_destino2] => 
+    [id_centro_destino3] => 
+    [id_centro_destino4] => 
+    [id_centro_destino5] => 
+    [id_centro_destino6] => 
+    [fotocopia_resolucion] => 
+    [reserva] => 
+    [prematuridad] => 
+    [acred_dom_familiar] => 
+    [cer_rec_discapacidad] => 
+    [fam_numerosa] => 
+    [acred_dom_laboral] => 
+    [permiten_renta] => 
+    [cumplen_resta] => 
+    [fase_solicitud] => 
+    [transporte] => 
+    [nasignado] => 
+    [nordensorteo] => 
+    [estado_solicitud] => 
+    [oponenautorizar] => 
+    [cumplen] => 
+    [tipoestudios] => 
+    [est_desp_sorteo] => 
+    [hermanos_id_registro_admision1] => 
+    [hermanos_datos_admision1] => 
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_id_registro_admision2] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_id_registro_admision3] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_datos_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [nombre1] => 
+    [apellido11] => 
+    [apellido21] => 
+    [parentesco1] => 
+    [dni1] => 
+    [nombre2] => 
+    [apellido12] => 
+    [apellido22] => 
+    [parentesco2] => 
+    [dni2] => 
+    [nombre3] => 
+    [apellido13] => 
+    [apellido23] => 
+    [parentesco3] => 
+    [dni3] => 
+    [nombre_centro_destino] => NONAME
+)
+
+[02-Mar-2020 13:07:45] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, NOMBRE CENTRO: ANGEL RIVIÈRE
+[02-Mar-2020 13:07:45] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, ID CENTRO: 50017369
+[02-Mar-2020 13:07:45] : [WARNING] - SOLICITUD NUEVA, FORMULARIO RECIBIDO - DATOS BRUTOS:
+[02-Mar-2020 13:07:45] : [WARNING] - apellido1=pa4&apellido2=&nombre=n4&dni_alumno=&fnac=2007-01-30&nacionalidad=&datos_tutor1=nt4&dni_tutor1=14071408r&datos_tutor2=&dni_tutor2=&calle_dfamiliar=&num_dfamiliar=&piso_dfamiliar=&cp_dfamiliar=&loc_dfamiliar=&tel_dfamiliar1=&tel_dfamiliar2=&id_centro_estudios_origen=&loc_centro_origen=&modalidad_origen=nodata&hermanos_datos_admision1=&hermanos_id_registro_admision1=0&hermanos_fnacimiento_admision1=&hermanos_curso_admision1=&hermanos_nivel_educativo_admision1=&hermanos_datos_admision2=&hermanos_id_registro_admision2=0&hermanos_fnacimiento_admision2=&hermanos_curso_admision2=&hermanos_nivel_educativo_admision2=&hermanos_datos_admision3=&hermanos_id_registro_admision3=0&hermanos_fnacimiento_admision3=&hermanos_curso_admision3=&hermanos_nivel_educativo_admision3=&id_centro_destino=ANGEL+RIVI%C3%88RE&loc_centro_destino=&tipoestudios=EBO&id_centro_destino1=&id_centro_destino4=&id_centro_destino2=&id_centro_destino5=&id_centro_destino3=&id_centro_destino6=&baremo_puntos_totales=0&baremo_puntos_validados=0&baremo_calle_dlaboral=&baremo_calle_dllimitrofe=&baremo_validar_proximidad_domicilio=0&baremo_validar_tutores_centro=0&baremo_validar_renta_inferior=0&hermanos_datos_baremo1=&hermanos_id_registro_baremo1=&hermanos_fnacimiento_baremo1=&hermanos_curso_baremo1=&hermanos_nivel_educativo_baremo1=&hermanos_datos_baremo2=&hermanos_id_registro_baremo2=&hermanos_fnacimiento_baremo2=&hermanos_curso_baremo2=&hermanos_nivel_educativo_baremo2=&hermanos_datos_baremo3=&hermanos_id_registro_baremo3=&hermanos_fnacimiento_baremo3=&hermanos_curso_baremo3=&hermanos_nivel_educativo_baremo3=&baremo_validar_hnos_centro=0&baremo_validar_discapacidad=0&baremo_validar_tipo_familia=0&baremo_ptstotal=
+[02-Mar-2020 13:07:45] : [WARNING] - FORMULARIO RECIBIDO:GRABAR SOLICITUD
+[02-Mar-2020 13:07:45] : [WARNING] - {"apellido1":"pa4","apellido2":"","nombre":"n4","dni_alumno":"","fnac":"2007-01-30","nacionalidad":"","datos_tutor1":"nt4","dni_tutor1":"14071408r","datos_tutor2":"","dni_tutor2":"","calle_dfamiliar":"","num_dfamiliar":"","piso_dfamiliar":"","cp_dfamiliar":"","loc_dfamiliar":"","tel_dfamiliar1":"","tel_dfamiliar2":"","id_centro_estudios_origen":0,"loc_centro_origen":"","modalidad_origen":"nodata","hermanos_datos_admision1":"","hermanos_id_registro_admision1":"0","hermanos_fnacimiento_admision1":"","hermanos_curso_admision1":"","hermanos_nivel_educativo_admision1":"","hermanos_datos_admision2":"","hermanos_id_registro_admision2":"0","hermanos_fnacimiento_admision2":"","hermanos_curso_admision2":"","hermanos_nivel_educativo_admision2":"","hermanos_datos_admision3":"","hermanos_id_registro_admision3":"0","hermanos_fnacimiento_admision3":"","hermanos_curso_admision3":"","hermanos_nivel_educativo_admision3":"","id_centro_destino":"50017369","loc_centro_destino":"","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral":"","baremo_calle_dllimitrofe":"","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","hermanos_datos_baremo1":"","hermanos_id_registro_baremo1":"","hermanos_fnacimiento_baremo1":"","hermanos_curso_baremo1":"","hermanos_nivel_educativo_baremo1":"","hermanos_datos_baremo2":"","hermanos_id_registro_baremo2":"","hermanos_fnacimiento_baremo2":"","hermanos_curso_baremo2":"","hermanos_nivel_educativo_baremo2":"","hermanos_datos_baremo3":"","hermanos_id_registro_baremo3":"","hermanos_fnacimiento_baremo3":"","hermanos_curso_baremo3":"","hermanos_nivel_educativo_baremo3":"","baremo_validar_hnos_centro":"0","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 13:07:45] : [WARNING] - GRABANDO NUEVA SOLICITUD...
+[02-Mar-2020 13:07:45] : [WARNING] - Array
+(
+    [apellido1] => pa4
+    [apellido2] => 
+    [nombre] => n4
+    [dni_alumno] => 
+    [fnac] => 2007-01-30
+    [nacionalidad] => 
+    [datos_tutor1] => nt4
+    [dni_tutor1] => 14071408r
+    [datos_tutor2] => 
+    [dni_tutor2] => 
+    [calle_dfamiliar] => 
+    [num_dfamiliar] => 
+    [piso_dfamiliar] => 
+    [cp_dfamiliar] => 
+    [loc_dfamiliar] => 
+    [tel_dfamiliar1] => 
+    [tel_dfamiliar2] => 
+    [id_centro_estudios_origen] => 0
+    [loc_centro_origen] => 
+    [modalidad_origen] => nodata
+    [hermanos_datos_admision1] => 
+    [hermanos_id_registro_admision1] => 0
+    [hermanos_fnacimiento_admision1] => 
+    [hermanos_curso_admision1] => 
+    [hermanos_nivel_educativo_admision1] => 
+    [hermanos_datos_admision2] => 
+    [hermanos_id_registro_admision2] => 0
+    [hermanos_fnacimiento_admision2] => 
+    [hermanos_curso_admision2] => 
+    [hermanos_nivel_educativo_admision2] => 
+    [hermanos_datos_admision3] => 
+    [hermanos_id_registro_admision3] => 0
+    [hermanos_fnacimiento_admision3] => 
+    [hermanos_curso_admision3] => 
+    [hermanos_nivel_educativo_admision3] => 
+    [id_centro_destino] => 50017369
+    [loc_centro_destino] => 
+    [tipoestudios] => EBO
+    [id_centro_destino1] => 
+    [id_centro_destino4] => 
+    [id_centro_destino2] => 
+    [id_centro_destino5] => 
+    [id_centro_destino3] => 
+    [id_centro_destino6] => 
+    [baremo_puntos_totales] => 0
+    [baremo_puntos_validados] => 0
+    [baremo_calle_dlaboral] => 
+    [baremo_calle_dllimitrofe] => 
+    [baremo_validar_proximidad_domicilio] => 0
+    [baremo_validar_tutores_centro] => 0
+    [baremo_validar_renta_inferior] => 0
+    [hermanos_datos_baremo1] => 
+    [hermanos_id_registro_baremo1] => 
+    [hermanos_fnacimiento_baremo1] => 
+    [hermanos_curso_baremo1] => 
+    [hermanos_nivel_educativo_baremo1] => 
+    [hermanos_datos_baremo2] => 
+    [hermanos_id_registro_baremo2] => 
+    [hermanos_fnacimiento_baremo2] => 
+    [hermanos_curso_baremo2] => 
+    [hermanos_nivel_educativo_baremo2] => 
+    [hermanos_datos_baremo3] => 
+    [hermanos_id_registro_baremo3] => 
+    [hermanos_fnacimiento_baremo3] => 
+    [hermanos_curso_baremo3] => 
+    [hermanos_nivel_educativo_baremo3] => 
+    [baremo_validar_hnos_centro] => 0
+    [baremo_validar_discapacidad] => 0
+    [baremo_validar_tipo_familia] => 0
+    [baremo_ptstotal] => 
+    [baremo_tutores_centro] => 0
+    [baremo_renta_inferior] => 0
+)
+
+[02-Mar-2020 13:07:45] : [WARNING] - ENTRANDO EN SAVE
+[02-Mar-2020 13:07:45] : [WARNING] - NO HAY HERMANOS EN ADMISION
+[02-Mar-2020 13:07:45] : [WARNING] - NO HAY HERMANOS EN BAREMO
+[02-Mar-2020 13:07:45] : [WARNING] - CONSULTA NUM ASIGNADO: SELECT nasignado FROM alumnos WHERE id_centro_destino=50017369 and tipoestudios='ebo' order by nasignado desc limit 1
+[02-Mar-2020 13:07:45] : [WARNING] - DATOS DE ALUMNOS
+[02-Mar-2020 13:07:45] : [WARNING] - {"apellido1":"pa4","apellido2":"","nombre":"n4","dni_alumno":"","fnac":"2007-01-30","nacionalidad":"","datos_tutor1":"nt4","dni_tutor1":"14071408r","datos_tutor2":"","dni_tutor2":"","calle_dfamiliar":"","num_dfamiliar":"","piso_dfamiliar":"","cp_dfamiliar":"","loc_dfamiliar":"","tel_dfamiliar1":"","tel_dfamiliar2":"","id_centro_estudios_origen":0,"loc_centro_origen":"","modalidad_origen":"nodata","id_centro_destino":"50017369","loc_centro_destino":"","tipoestudios":"EBO","id_centro_destino1":"","id_centro_destino4":"","id_centro_destino2":"","id_centro_destino5":"","id_centro_destino3":"","id_centro_destino6":"","nasignado":3}
+[02-Mar-2020 13:07:45] : [WARNING] - DATOS CUENTA SELECT nombre_usuario,clave_original FROM usuarios where nombre_usuario=14071408r and clave_original=7883
+[02-Mar-2020 13:07:45] : [WARNING] - CONSULTA INSERCION USUARIO:
+[02-Mar-2020 13:07:45] : [WARNING] - INSERT INTO usuarios(nombre_usuario,rol,clave,clave_original) VALUES('14071408r','alumno',md5('7883'),7883)
+[02-Mar-2020 13:07:45] : [WARNING] - USUARIO INSERTADO, ENTRANDO EN ALUMNO
+[02-Mar-2020 13:07:45] : [WARNING] - CONSULTA INSERCION ALUMNO:
+[02-Mar-2020 13:07:45] : [WARNING] - INSERT INTO alumnos(id_alumno,apellido1,nombre,fnac,datos_tutor1,dni_tutor1,id_centro_estudios_origen,modalidad_origen,id_centro_destino,tipoestudios,nasignado,id_usuario) VALUES(0,'pa4','n4','2007-01-30','nt4','14071408r','0','nodata','50017369','EBO','3','50032931')
+[02-Mar-2020 13:07:45] : [WARNING] - ID INSERCION ALUMNO:
+[02-Mar-2020 13:07:45] : [WARNING] - 8926
+[02-Mar-2020 13:07:45] : [WARNING] - DATOS DE BAREMO
+[02-Mar-2020 13:07:45] : [WARNING] - {"id_alumno":8926,"baremo_puntos_totales":"0","baremo_puntos_validados":"0","baremo_calle_dlaboral":"","baremo_calle_dllimitrofe":"","baremo_validar_proximidad_domicilio":"0","baremo_validar_tutores_centro":"0","baremo_validar_renta_inferior":"0","baremo_validar_hnos_centro":"0","baremo_validar_discapacidad":"0","baremo_validar_tipo_familia":"0","baremo_ptstotal":"","baremo_tutores_centro":0,"baremo_renta_inferior":0}
+[02-Mar-2020 13:07:45] : [WARNING] - DATOS TRIBUTANTES
+[02-Mar-2020 13:07:45] : [WARNING] - Array
+(
+    [id_alumno] => 8926
+)
+
+[02-Mar-2020 13:07:45] : [WARNING] - CONSULTA INSERCION BAREMO:
+[02-Mar-2020 13:07:45] : [WARNING] - INSERT INTO baremo(id_alumno,puntos_totales,puntos_validados,validar_proximidad_domicilio,validar_tutores_centro,validar_renta_inferior,validar_hnos_centro,validar_discapacidad,validar_tipo_familia,tutores_centro,renta_inferior) VALUES('8926','0','0','0','0','0','0','0','0','0','0')
+[02-Mar-2020 13:07:45] : [WARNING] - GUARDADO BAREMO
+[02-Mar-2020 13:07:45] : [WARNING] - ENTRANDO TRIBUTANTES:
+[02-Mar-2020 13:07:45] : [WARNING] - Array
+(
+    [id_alumno] => 8926
+)
+
+[02-Mar-2020 13:07:45] : [WARNING] - 1
+[02-Mar-2020 13:07:45] : [WARNING] - NO DATOS TRIBUTANTE
+[02-Mar-2020 13:12:55] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, NOMBRE CENTRO: ANGEL RIVIÈRE*
+[02-Mar-2020 13:12:55] : [WARNING] - SOLICITUD NUEVA DE ALUMNO, ID CENTRO: 0
